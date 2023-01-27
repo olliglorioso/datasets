@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-27T22:01:56.983Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="Jj7Zt0v79WqCsgQffc6Y" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-27T22:02:16.095Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="OkjXZxaPFo4T7TZU8OcL" version="20.8.13" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
     <mxGraphModel dx="1816" dy="1612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -437,7 +437,7 @@
         <mxCell id="bibrFvktmzw4Xg1fQ97D-77" value="Image" style="html=1;" vertex="1" parent="1">
           <mxGeometry x="-270" y="-55" width="250" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="bibrFvktmzw4Xg1fQ97D-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;endArrow=open;endFill=0;startSize=11;endSize=11;" edge="1" parent="1" source="jQbfAF6T5azty1Uu_CAn-20" target="bibrFvktmzw4Xg1fQ97D-55">
+        <mxCell id="bibrFvktmzw4Xg1fQ97D-82" value="Credit card for payment" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;endArrow=open;endFill=0;startSize=11;endSize=11;" edge="1" parent="1" source="jQbfAF6T5azty1Uu_CAn-20" target="bibrFvktmzw4Xg1fQ97D-55">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
