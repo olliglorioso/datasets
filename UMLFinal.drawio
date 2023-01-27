@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-27T22:04:27.438Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="K8qA9nsNy5LcKS2PpBhj" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-27T22:04:36.174Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="cCpmN2MfUSINKVy_yIgB" version="20.8.13" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
     <mxGraphModel dx="1816" dy="1612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -396,7 +396,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="bibrFvktmzw4Xg1fQ97D-63" value="&lt;&lt;enum&gt;&gt;&#xa;DeliveryMethod" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="290" y="680" width="140" height="130" as="geometry" />
+          <mxGeometry x="340" y="680" width="140" height="130" as="geometry" />
         </mxCell>
         <mxCell id="bibrFvktmzw4Xg1fQ97D-64" value="PickUp" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bibrFvktmzw4Xg1fQ97D-63">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
