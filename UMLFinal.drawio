@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-27T22:04:58.759Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="ts4I7fuBj5t1XBeo6iQB" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-27T22:05:20.973Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="Sjo_cTnWVoP0VU8DEFe2" version="20.8.13" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
     <mxGraphModel dx="1816" dy="1612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -112,17 +112,6 @@
         </mxCell>
         <mxCell id="jQbfAF6T5azty1Uu_CAn-37" value="+ email: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="jQbfAF6T5azty1Uu_CAn-35" vertex="1">
           <mxGeometry y="52" width="195" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="jQbfAF6T5azty1Uu_CAn-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=open;endFill=0;endSize=11;startSize=11;strokeWidth=2;" parent="jQbfAF6T5azty1Uu_CAn-35" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-180" y="418" as="sourcePoint" />
-            <mxPoint y="78" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="-180" y="418" />
-              <mxPoint x="-95" y="418" />
-              <mxPoint x="-95" y="79" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="jQbfAF6T5azty1Uu_CAn-38" value="+ phone: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="jQbfAF6T5azty1Uu_CAn-35" vertex="1">
           <mxGeometry y="78" width="195" height="26" as="geometry" />
@@ -451,6 +440,17 @@
         </mxCell>
         <mxCell id="bibrFvktmzw4Xg1fQ97D-82" value="Credit card for payment" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;endArrow=open;endFill=0;startSize=11;endSize=11;" edge="1" parent="1" source="jQbfAF6T5azty1Uu_CAn-20" target="bibrFvktmzw4Xg1fQ97D-55">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jQbfAF6T5azty1Uu_CAn-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=open;endFill=0;endSize=11;startSize=11;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="425" as="sourcePoint" />
+            <mxPoint x="460" y="85" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="280" y="425" />
+              <mxPoint x="365" y="425" />
+              <mxPoint x="365" y="86" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
