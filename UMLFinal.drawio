@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-27T19:01:59.671Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="nnDx3ByySS00qeoaRhpt" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-27T19:02:21.102Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="ragOlPJcmXZRQzss_JdP" version="20.8.13" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
     <mxGraphModel dx="2026" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -184,7 +184,7 @@
         <mxCell id="jQbfAF6T5azty1Uu_CAn-53" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="jQbfAF6T5azty1Uu_CAn-50">
           <mxGeometry y="104" width="250" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="jQbfAF6T5azty1Uu_CAn-55" value="+ addProduct: Unit" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="jQbfAF6T5azty1Uu_CAn-50">
+        <mxCell id="jQbfAF6T5azty1Uu_CAn-55" value="+ addProduct (p: Product): Unit" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="jQbfAF6T5azty1Uu_CAn-50">
           <mxGeometry y="112" width="250" height="26" as="geometry" />
         </mxCell>
         <mxCell id="jQbfAF6T5azty1Uu_CAn-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.013;entryY=0.125;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;endArrow=open;endFill=0;endSize=11;startSize=11;strokeWidth=2;" edge="1" parent="1" target="jQbfAF6T5azty1Uu_CAn-38">
@@ -258,6 +258,9 @@
         </mxCell>
         <mxCell id="jQbfAF6T5azty1Uu_CAn-94" value="+ addProduct (p: Product): Unit" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="jQbfAF6T5azty1Uu_CAn-91">
           <mxGeometry y="86" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="jQbfAF6T5azty1Uu_CAn-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.015;entryY=0.883;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;startArrow=none;startFill=0;endArrow=open;endFill=0;startSize=11;endSize=11;" edge="1" parent="1" source="jQbfAF6T5azty1Uu_CAn-95" target="jQbfAF6T5azty1Uu_CAn-60">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
