@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-30T21:18:16.764Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="7F0OONJ40ji_dLgo0LK2" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-30T21:18:23.260Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="JAQPj0bnOWzGxPb_IfrI" version="20.8.13" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
     <mxGraphModel dx="1684" dy="1512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -115,7 +115,7 @@
         <mxCell id="Lg_b22pVm_QW2KAhUxZ5-40" value="+ setOrderState (s: OrderState): Unit" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="jQbfAF6T5azty1Uu_CAn-16">
           <mxGeometry y="424" width="210" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Lg_b22pVm_QW2KAhUxZ5-41" value="+ get{anyClassVarHere} ()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="jQbfAF6T5azty1Uu_CAn-16">
+        <mxCell id="Lg_b22pVm_QW2KAhUxZ5-41" value="+ get_anyClassVarHere_ ()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="jQbfAF6T5azty1Uu_CAn-16">
           <mxGeometry y="450" width="210" height="26" as="geometry" />
         </mxCell>
         <mxCell id="bibrFvktmzw4Xg1fQ97D-81" value="+ setCustomCustomerInfo (&#xa;deliveryAddress: String, &#xa;creditCard: CreditCard,&#xa;name: String,&#xa;email: String,&#xa;phone: String&#xa;): Unit" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="jQbfAF6T5azty1Uu_CAn-16" vertex="1">
