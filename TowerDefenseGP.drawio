@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T14:51:40.549Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="CLKb74eE3uaujyykue93" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-31T14:51:55.562Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="dryhFo6aj3j1UYKFdQN8" version="20.8.13" type="github">
   <diagram name="Page-1" id="zFE875iKLAENkuUcsFWu">
-    <mxGraphModel dx="1276" dy="500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1469" dy="727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -109,12 +109,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="jQFUmVb1L2Z8zy5BHqim-154" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#b46504;fontSize=13;fillColor=#fad7ac;" vertex="1" parent="jQFUmVb1L2Z8zy5BHqim-1">
-          <mxGeometry x="570" y="50" width="170" height="90" as="geometry" />
+          <mxGeometry x="560" y="50" width="170" height="90" as="geometry" />
         </mxCell>
         <mxCell id="jQFUmVb1L2Z8zy5BHqim-155" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/4/48/Gold_Bitcoin.svg;" vertex="1" parent="jQFUmVb1L2Z8zy5BHqim-1">
           <mxGeometry x="678" y="60" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="jQFUmVb1L2Z8zy5BHqim-156" value="&lt;b&gt;Brickwall&lt;/b&gt; 10" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="jQFUmVb1L2Z8zy5BHqim-1">
+        <mxCell id="jQFUmVb1L2Z8zy5BHqim-156" value="&lt;b&gt;Brickwall&lt;/b&gt;&amp;nbsp; 10" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="jQFUmVb1L2Z8zy5BHqim-1">
           <mxGeometry x="580" y="55" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jQFUmVb1L2Z8zy5BHqim-121" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a0522d;fontColor=#ffffff;strokeColor=none;" vertex="1" parent="1">
