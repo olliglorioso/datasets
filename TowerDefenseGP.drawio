@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T14:55:10.493Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="69tt46e3dSHeYlFBbsDX" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-31T14:57:50.417Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="0lDR1qcfcgHZTBFME8qN" version="20.8.13" type="github">
   <diagram name="Page-1" id="zFE875iKLAENkuUcsFWu">
-    <mxGraphModel dx="1567" dy="842" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1898" dy="1231" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -119,6 +119,9 @@
         </mxCell>
         <mxCell id="jQFUmVb1L2Z8zy5BHqim-157" value="Assures that no one gets past a point in the path." style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="jQFUmVb1L2Z8zy5BHqim-1">
           <mxGeometry x="570" y="85" width="140" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="jQFUmVb1L2Z8zy5BHqim-162" value="&lt;h1 style=&quot;font-size: 60px;&quot;&gt;LEVEL 2&lt;/h1&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=60;labelBackgroundColor=none;fontColor=#ff0000;" vertex="1" parent="jQFUmVb1L2Z8zy5BHqim-1">
+          <mxGeometry x="140" y="210" width="480" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jQFUmVb1L2Z8zy5BHqim-121" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a0522d;fontColor=#ffffff;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="680" y="560" width="40" height="80" as="geometry" />
