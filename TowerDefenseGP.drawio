@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T15:43:36.626Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="cmh-pml6R-Js_LsWbzUu" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-31T15:44:39.740Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="TveJQUTaNFoaI83upaj6" version="20.8.13" type="github">
   <diagram name="Page-1" id="zFE875iKLAENkuUcsFWu">
-    <mxGraphModel dx="1442" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1140" dy="340" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -146,6 +146,12 @@
         </mxCell>
         <mxCell id="jQFUmVb1L2Z8zy5BHqim-174" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/4/48/Gold_Bitcoin.svg;" vertex="1" parent="jQFUmVb1L2Z8zy5BHqim-1">
           <mxGeometry x="110" y="275" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jQFUmVb1L2Z8zy5BHqim-175" value="" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=none;fontSize=13;fontColor=#260000;fillColor=#12FF12;" vertex="1" parent="jQFUmVb1L2Z8zy5BHqim-1">
+          <mxGeometry x="71.5" y="120" width="53" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="jQFUmVb1L2Z8zy5BHqim-176" value="" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=none;fontSize=13;fontColor=#260000;fillColor=#FF0000;" vertex="1" parent="jQFUmVb1L2Z8zy5BHqim-1">
+          <mxGeometry x="104.5" y="120" width="20" height="10" as="geometry" />
         </mxCell>
         <mxCell id="jQFUmVb1L2Z8zy5BHqim-121" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a0522d;fontColor=#ffffff;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="680" y="560" width="40" height="80" as="geometry" />
