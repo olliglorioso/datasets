@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T14:57:50.417Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="0lDR1qcfcgHZTBFME8qN" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-31T14:58:12.402Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="sKfN_B80DvRHIJzUV_qN" version="20.8.13" type="github">
   <diagram name="Page-1" id="zFE875iKLAENkuUcsFWu">
     <mxGraphModel dx="1898" dy="1231" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -182,6 +182,9 @@
             <mxPoint x="870.0000000000002" y="650" as="sourcePoint" />
             <mxPoint x="812.28" y="663.2652466367713" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="jQFUmVb1L2Z8zy5BHqim-163" value="Messages are shown in the centre of the screen." style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="330" y="660" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
