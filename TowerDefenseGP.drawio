@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T11:09:58.654Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="KMDe9S1lK9SyB3MJAKHy" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-31T11:11:11.305Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="3L8AMkTW-IvxmNuvZIz8" version="20.8.13" type="github">
   <diagram name="Page-1" id="zFE875iKLAENkuUcsFWu">
     <mxGraphModel dx="1857" dy="941" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -171,6 +171,12 @@
             <mxPoint x="680" y="280" as="sourcePoint" />
             <mxPoint x="680" y="240" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="jQFUmVb1L2Z8zy5BHqim-77" value="" style="shape=corner;whiteSpace=wrap;html=1;dx=42;dy=40;" vertex="1" parent="jQFUmVb1L2Z8zy5BHqim-1">
+          <mxGeometry x="38" y="160" width="132" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="jQFUmVb1L2Z8zy5BHqim-78" value="" style="shape=corner;whiteSpace=wrap;html=1;dx=40;dy=40;rotation=-180;direction=north;" vertex="1" parent="jQFUmVb1L2Z8zy5BHqim-1">
+          <mxGeometry x="560" y="80" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="jQFUmVb1L2Z8zy5BHqim-72" value="Reset game button" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-100" y="50" width="120" height="60" as="geometry" />
