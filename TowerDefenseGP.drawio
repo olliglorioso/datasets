@@ -1,11 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T11:30:37.646Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="V2xYQ8nD_NZimKjsv7U7" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-31T11:31:30.122Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="SV6UviYwO9M2e7M8Eqf1" version="20.8.13" type="github">
   <diagram name="Page-1" id="zFE875iKLAENkuUcsFWu">
-    <mxGraphModel dx="2073" dy="1143" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1857" dy="941" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="jQFUmVb1L2Z8zy5BHqim-1" value="" style="swimlane;startSize=0;fillColor=#009900;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="40" y="160" width="760" height="480" as="geometry" />
+          <mxGeometry x="40" y="160" width="760" height="480" as="geometry">
+            <mxRectangle x="40" y="160" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="jQFUmVb1L2Z8zy5BHqim-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="jQFUmVb1L2Z8zy5BHqim-1">
           <mxGeometry x="720" width="40" height="480" as="geometry" />
@@ -95,7 +97,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="jQFUmVb1L2Z8zy5BHqim-133" value="Unplaced towers" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="610" y="60" width="120" height="60" as="geometry" />
+          <mxGeometry x="610" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jQFUmVb1L2Z8zy5BHqim-134" value="Placed tower" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jQFUmVb1L2Z8zy5BHqim-135" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#171717;strokeWidth=5;fontSize=20;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-20" y="380" as="sourcePoint" />
+            <mxPoint x="40" y="380" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
