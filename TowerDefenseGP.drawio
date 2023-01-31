@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T14:58:21.399Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="C3pbfN-ydvEdCCKOCsij" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-31T15:40:06.977Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="_tueRJGs4PYN6VyiyaVa" version="20.8.13" type="github">
   <diagram name="Page-1" id="zFE875iKLAENkuUcsFWu">
-    <mxGraphModel dx="1898" dy="1231" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1442" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -123,6 +123,15 @@
         <mxCell id="jQFUmVb1L2Z8zy5BHqim-162" value="&lt;h1 style=&quot;font-size: 60px;&quot;&gt;LEVEL 2&lt;/h1&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=60;labelBackgroundColor=none;fontColor=#ff0000;" vertex="1" parent="jQFUmVb1L2Z8zy5BHqim-1">
           <mxGeometry x="140" y="210" width="480" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="jQFUmVb1L2Z8zy5BHqim-165" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#b46504;fontSize=13;fillColor=#fad7ac;" vertex="1" parent="jQFUmVb1L2Z8zy5BHqim-1">
+          <mxGeometry x="20" y="230" width="130" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="jQFUmVb1L2Z8zy5BHqim-167" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#171717;strokeWidth=5;fontSize=20;" edge="1" parent="jQFUmVb1L2Z8zy5BHqim-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-40" y="310" as="sourcePoint" />
+            <mxPoint x="20" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="jQFUmVb1L2Z8zy5BHqim-121" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a0522d;fontColor=#ffffff;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="680" y="560" width="40" height="80" as="geometry" />
         </mxCell>
@@ -165,7 +174,7 @@
             <mxPoint x="160" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jQFUmVb1L2Z8zy5BHqim-158" value="Tooltip that has a description of the tower and its price." style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+        <mxCell id="jQFUmVb1L2Z8zy5BHqim-158" value="Tooltip that has a description of the tower and its price. Activated &lt;b&gt;on hover&lt;/b&gt;." style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="830" y="170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jQFUmVb1L2Z8zy5BHqim-159" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#171717;strokeWidth=5;fontSize=20;exitX=-0.019;exitY=0.87;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="jQFUmVb1L2Z8zy5BHqim-158" target="jQFUmVb1L2Z8zy5BHqim-154">
@@ -191,6 +200,9 @@
             <mxPoint x="392" y="660" as="sourcePoint" />
             <mxPoint x="530" y="680" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="jQFUmVb1L2Z8zy5BHqim-166" value="Tooltip that offers the possibility to upgrade or sell a tower already placed. Activated &lt;b&gt;on click&lt;/b&gt;." style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="440" width="150" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
