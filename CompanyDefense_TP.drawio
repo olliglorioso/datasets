@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-11T15:34:34.489Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="G1HdWI80bWLPX5TRz8hA" version="20.8.18" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-11T15:34:49.409Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="rcwyr7-xiNpKvi2j-FnM" version="20.8.18" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="686" dy="1969" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -76,7 +76,7 @@
         <mxCell id="OlATY0SooS2oWQeTTlV3-33" value="+ sell (): Int" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="OlATY0SooS2oWQeTTlV3-5">
           <mxGeometry y="230" width="250" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="OlATY0SooS2oWQeTTlV3-35" value="+ upgrade: Int" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="OlATY0SooS2oWQeTTlV3-5">
+        <mxCell id="OlATY0SooS2oWQeTTlV3-35" value="+ upgrade (): Int" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="OlATY0SooS2oWQeTTlV3-5">
           <mxGeometry y="256" width="250" height="26" as="geometry" />
         </mxCell>
         <mxCell id="OlATY0SooS2oWQeTTlV3-12" value="Gameplay" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
