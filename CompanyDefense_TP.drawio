@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-11T15:36:06.690Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="1UzJ6uxe35SN9WZYH790" version="20.8.18" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-11T15:36:21.642Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="VU9v2XS0lmImutSS1fq6" version="20.8.18" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1513" dy="1969" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -134,13 +134,13 @@
         <mxCell id="OlATY0SooS2oWQeTTlV3-41" value="+ health: Int" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="OlATY0SooS2oWQeTTlV3-38">
           <mxGeometry y="66" width="240" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="OlATY0SooS2oWQeTTlV3-42" value="+ speed: Int" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="OlATY0SooS2oWQeTTlV3-38">
+        <mxCell id="OlATY0SooS2oWQeTTlV3-42" value="- speed: Int" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="OlATY0SooS2oWQeTTlV3-38">
           <mxGeometry y="92" width="240" height="26" as="geometry" />
         </mxCell>
         <mxCell id="OlATY0SooS2oWQeTTlV3-45" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="OlATY0SooS2oWQeTTlV3-38">
           <mxGeometry y="118" width="240" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="OlATY0SooS2oWQeTTlV3-46" value="+ hit (damage: Int): Int" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="OlATY0SooS2oWQeTTlV3-38">
+        <mxCell id="OlATY0SooS2oWQeTTlV3-46" value="+ getHit (damage: Int): Int" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="OlATY0SooS2oWQeTTlV3-38">
           <mxGeometry y="126" width="240" height="26" as="geometry" />
         </mxCell>
         <mxCell id="OlATY0SooS2oWQeTTlV3-47" value="+ sell (): Int" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="OlATY0SooS2oWQeTTlV3-38">
