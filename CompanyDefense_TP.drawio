@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-12T16:47:34.482Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="oGJGeLzQ--Xqe2k68b8-" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-12T16:47:53.509Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="rjm_xS77aE0zawgCEyC_" version="20.8.20" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2527" dy="2178" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -59,7 +59,7 @@
         <mxCell id="OlATY0SooS2oWQeTTlV3-32" value="+ level: Int" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="OlATY0SooS2oWQeTTlV3-5" vertex="1">
           <mxGeometry y="196" width="250" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="OlATY0SooS2oWQeTTlV3-79" value="+ legalPosition: Tuple&lt;Int, Int&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="OlATY0SooS2oWQeTTlV3-5" vertex="1">
+        <mxCell id="OlATY0SooS2oWQeTTlV3-79" value="+ legalPositions: Tuple&lt;Int, Int&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="OlATY0SooS2oWQeTTlV3-5" vertex="1">
           <mxGeometry y="222" width="250" height="26" as="geometry" />
         </mxCell>
         <mxCell id="OlATY0SooS2oWQeTTlV3-84" value="+ damageArea: Int" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="OlATY0SooS2oWQeTTlV3-5" vertex="1">
