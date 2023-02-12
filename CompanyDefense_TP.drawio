@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-12T18:04:34.065Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="N_QRbIYTXqr3cBbykD4X" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-12T18:04:56.415Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="twGF7MbiTNn6M-oPjUTP" version="20.8.20" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2259" dy="2018" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2527" dy="2178" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -95,6 +95,11 @@
         </mxCell>
         <mxCell id="OlATY0SooS2oWQeTTlV3-17" value="+ map: Map" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="OlATY0SooS2oWQeTTlV3-12" vertex="1">
           <mxGeometry y="78" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="gcCMT7e8VnEAfufgPn-i-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeWidth=2;fontSize=20;endArrow=open;endFill=0;startSize=11;endSize=11;dashed=1;" edge="1" parent="OlATY0SooS2oWQeTTlV3-12" source="OlATY0SooS2oWQeTTlV3-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-150.00000000000045" y="50" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="OlATY0SooS2oWQeTTlV3-24" value="+ mode: Mode" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="OlATY0SooS2oWQeTTlV3-12" vertex="1">
           <mxGeometry y="104" width="290" height="26" as="geometry" />
@@ -440,6 +445,11 @@
         </mxCell>
         <mxCell id="gcCMT7e8VnEAfufgPn-i-27" value="+ loadGame (): Gameplay" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gcCMT7e8VnEAfufgPn-i-22">
           <mxGeometry y="90" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="gcCMT7e8VnEAfufgPn-i-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;labelBackgroundColor=none;strokeWidth=2;fontSize=20;endArrow=open;endFill=0;startSize=11;endSize=11;" edge="1" parent="gcCMT7e8VnEAfufgPn-i-22" source="gcCMT7e8VnEAfufgPn-i-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-110.00000000000045" y="90" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="gcCMT7e8VnEAfufgPn-i-29" value="+ saveMap (m: Map): Boolean" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gcCMT7e8VnEAfufgPn-i-22">
           <mxGeometry y="116" width="250" height="26" as="geometry" />
