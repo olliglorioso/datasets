@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-14T08:01:18.013Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="aBBw8GfT9QBQa-CeFPOc" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-14T08:01:45.997Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="MN9gmDUi9McUc-PYD0_0" version="20.8.20" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2122" dy="1938" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -21,10 +21,10 @@
         <mxCell id="OlATY0SooS2oWQeTTlV3-3" value="+ addTower(t: Tower, Tuple&lt;Int, Int&gt;): Boolean" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="OlATY0SooS2oWQeTTlV3-0" vertex="1">
           <mxGeometry y="60" width="270" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="OlATY0SooS2oWQeTTlV3-4" value="+ removeTower(Tuple&lt;Int, Int&gt;): Boolean" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="OlATY0SooS2oWQeTTlV3-0" vertex="1">
+        <mxCell id="OlATY0SooS2oWQeTTlV3-4" value="+ removeSmth(Tuple&lt;Int, Int&gt;): Boolean" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="OlATY0SooS2oWQeTTlV3-0" vertex="1">
           <mxGeometry y="86" width="270" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="gcCMT7e8VnEAfufgPn-i-42" value="+ addEnemy(Tuple&lt;Int, Int&gt;): Boolean" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="OlATY0SooS2oWQeTTlV3-0" vertex="1">
+        <mxCell id="gcCMT7e8VnEAfufgPn-i-42" value="+ addEnemy(e: Enemy, Tuple&lt;Int, Int&gt;): Boolean" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="OlATY0SooS2oWQeTTlV3-0" vertex="1">
           <mxGeometry y="112" width="270" height="26" as="geometry" />
         </mxCell>
         <mxCell id="gcCMT7e8VnEAfufgPn-i-50" value="+ removeEnemy(Tuple&lt;Int, Int&gt;): Boolean" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="OlATY0SooS2oWQeTTlV3-0" vertex="1">
