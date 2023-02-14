@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-14T17:46:43.628Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="qO7b5Q5WD2E56fSD55vg" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-14T17:47:06.534Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="0xekk7fbsAKDd0kc3OZe" version="20.8.20" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1741" dy="2110" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -195,6 +195,11 @@
         </mxCell>
         <mxCell id="OlATY0SooS2oWQeTTlV3-23" value="Reijon Maansiirtofirma" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="OlATY0SooS2oWQeTTlV3-20" vertex="1">
           <mxGeometry y="78" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="jXVEW7oka6BfaIIjHtfz-48" value="*" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;fontSize=20;endArrow=open;endFill=0;startSize=11;endSize=11;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OlATY0SooS2oWQeTTlV3-38" target="jXVEW7oka6BfaIIjHtfz-1">
+          <mxGeometry x="0.9807" y="-17" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="OlATY0SooS2oWQeTTlV3-38" value="&lt;&lt;Trait&gt;&gt;&#xa;Enemy" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-140" y="40" width="250" height="282" as="geometry">
