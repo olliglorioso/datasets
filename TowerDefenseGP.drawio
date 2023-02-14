@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-14T21:19:41.708Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="bIjph3Jhs_XkESKaRjiH" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-14T21:20:49.340Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="ODIOH5iy7BU12NclbflR" version="20.8.20" type="github">
   <diagram name="Page-1" id="zFE875iKLAENkuUcsFWu">
     <mxGraphModel dx="2210" dy="807" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -186,9 +186,6 @@
             <mxPoint x="780" y="190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jQFUmVb1L2Z8zy5BHqim-134" value="Placed tower" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="-150" y="360" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="jQFUmVb1L2Z8zy5BHqim-135" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#171717;strokeWidth=5;fontSize=20;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-20" y="380" as="sourcePoint" />
@@ -201,17 +198,11 @@
             <mxPoint x="160" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jQFUmVb1L2Z8zy5BHqim-158" value="Tooltip that has a description of the tower and its price. Activated &lt;b&gt;on hover&lt;/b&gt;." style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="830" y="170" width="150" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="jQFUmVb1L2Z8zy5BHqim-159" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#171717;strokeWidth=5;fontSize=20;exitX=-0.019;exitY=0.87;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="jQFUmVb1L2Z8zy5BHqim-158" target="jQFUmVb1L2Z8zy5BHqim-154" edge="1">
+        <mxCell id="jQFUmVb1L2Z8zy5BHqim-159" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#171717;strokeWidth=5;fontSize=20;exitX=-0.019;exitY=0.87;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" target="jQFUmVb1L2Z8zy5BHqim-154" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="820" y="220" as="sourcePoint" />
+            <mxPoint x="827.1500000000001" y="230.9000000000001" as="sourcePoint" />
             <mxPoint x="870" y="280" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="jQFUmVb1L2Z8zy5BHqim-160" value="Available (bit)coins that can be used to purchase towers." style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="870" y="620" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jQFUmVb1L2Z8zy5BHqim-161" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#171717;strokeWidth=5;fontSize=20;exitX=-0.019;exitY=0.87;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="1" target="jQFUmVb1L2Z8zy5BHqim-138" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -219,24 +210,15 @@
             <mxPoint x="812.28" y="663.2652466367713" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jQFUmVb1L2Z8zy5BHqim-163" value="Messages are shown in the centre of the screen." style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="330" y="660" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="jQFUmVb1L2Z8zy5BHqim-164" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#171717;strokeWidth=5;fontSize=20;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="jQFUmVb1L2Z8zy5BHqim-162" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="392" y="660" as="sourcePoint" />
             <mxPoint x="530" y="680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jQFUmVb1L2Z8zy5BHqim-166" value="Tooltip that offers the possibility to upgrade or sell a tower already placed. Activated &lt;b&gt;on click&lt;/b&gt;." style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="-150" y="440" width="150" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="jQFUmVb1L2Z8zy5BHqim-275" value="While placing the tower, there is an indicative color on whether the position is legal." style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="580" y="690" width="150" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="jQFUmVb1L2Z8zy5BHqim-276" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#171717;strokeWidth=5;fontSize=20;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="jQFUmVb1L2Z8zy5BHqim-275" edge="1">
+        <mxCell id="jQFUmVb1L2Z8zy5BHqim-276" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#171717;strokeWidth=5;fontSize=20;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="610" y="805" as="sourcePoint" />
+            <mxPoint x="655" y="690" as="sourcePoint" />
             <mxPoint x="638" y="575" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -245,9 +227,6 @@
             <mxPoint x="890" y="540" as="sourcePoint" />
             <mxPoint x="802.5" y="570" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="jQFUmVb1L2Z8zy5BHqim-279" value="Pause-button that has different looks depending on if the game is paused." style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="890" y="500" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="jQFUmVb1L2Z8zy5BHqim-330" value="2" style="swimlane;startSize=0;fillColor=#009900;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="10" y="880" width="935" height="470" as="geometry">
@@ -287,12 +266,6 @@
             <mxPoint x="800" y="532.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jQFUmVb1L2Z8zy5BHqim-392" value="Score to compare yourself to other players or your previous tries." style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="880" y="420" width="150" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="mEMKAuORRf1MGvIQLC-L-8" value="How much health the player has left." style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="860" y="330" width="150" height="70" as="geometry" />
-        </mxCell>
         <mxCell id="mEMKAuORRf1MGvIQLC-L-9" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#171717;strokeWidth=5;fontSize=20;entryX=0.992;entryY=0.72;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="jQFUmVb1L2Z8zy5BHqim-7" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="870" y="400" as="sourcePoint" />
@@ -309,28 +282,34 @@
           <mxGeometry x="450" y="110" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="kToCdCIehFokKmHCk9tp-6" value="&lt;font color=&quot;#33ff55&quot; style=&quot;font-size: 40px; background-color: rgb(38, 0, 0);&quot;&gt;4&lt;br style=&quot;font-size: 40px;&quot;&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=40;" vertex="1" parent="1">
-          <mxGeometry x="690" y="80" width="60" height="30" as="geometry" />
+          <mxGeometry x="690" y="90" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="kToCdCIehFokKmHCk9tp-7" value="&lt;font color=&quot;#33ff55&quot; style=&quot;font-size: 40px; background-color: rgb(38, 0, 0);&quot;&gt;5&lt;br style=&quot;font-size: 40px;&quot;&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=40;" vertex="1" parent="1">
-          <mxGeometry x="740" y="80" width="60" height="30" as="geometry" />
+          <mxGeometry x="810" y="210" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="kToCdCIehFokKmHCk9tp-8" value="&lt;font color=&quot;#33ff55&quot; style=&quot;font-size: 40px; background-color: rgb(38, 0, 0);&quot;&gt;6&lt;br style=&quot;font-size: 40px;&quot;&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=40;" vertex="1" parent="1">
-          <mxGeometry x="780" y="80" width="60" height="30" as="geometry" />
+          <mxGeometry x="850" y="385" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="kToCdCIehFokKmHCk9tp-9" value="&lt;font color=&quot;#33ff55&quot; style=&quot;font-size: 40px; background-color: rgb(38, 0, 0);&quot;&gt;7&lt;br style=&quot;font-size: 40px;&quot;&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=40;" vertex="1" parent="1">
-          <mxGeometry x="840" y="80" width="60" height="30" as="geometry" />
+          <mxGeometry x="860" y="460" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="kToCdCIehFokKmHCk9tp-10" value="&lt;font color=&quot;#33ff55&quot; style=&quot;font-size: 40px; background-color: rgb(38, 0, 0);&quot;&gt;8&lt;br style=&quot;font-size: 40px;&quot;&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=40;" vertex="1" parent="1">
-          <mxGeometry x="890" y="80" width="60" height="30" as="geometry" />
+          <mxGeometry x="870" y="535" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="kToCdCIehFokKmHCk9tp-11" value="&lt;font color=&quot;#33ff55&quot; style=&quot;font-size: 40px; background-color: rgb(38, 0, 0);&quot;&gt;9&lt;br style=&quot;font-size: 40px;&quot;&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=40;" vertex="1" parent="1">
-          <mxGeometry x="930" y="90" width="60" height="30" as="geometry" />
+          <mxGeometry x="850" y="640" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="kToCdCIehFokKmHCk9tp-12" value="&lt;font color=&quot;#33ff55&quot; style=&quot;font-size: 40px; background-color: rgb(38, 0, 0);&quot;&gt;10&lt;br style=&quot;font-size: 40px;&quot;&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=40;" vertex="1" parent="1">
-          <mxGeometry x="970" y="100" width="60" height="30" as="geometry" />
+          <mxGeometry x="630" y="690" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="kToCdCIehFokKmHCk9tp-13" value="&lt;font color=&quot;#33ff55&quot; style=&quot;font-size: 40px; background-color: rgb(38, 0, 0);&quot;&gt;11&lt;br style=&quot;font-size: 40px;&quot;&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=40;" vertex="1" parent="1">
-          <mxGeometry x="1010" y="120" width="60" height="30" as="geometry" />
+          <mxGeometry x="360" y="660" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kToCdCIehFokKmHCk9tp-14" value="&lt;font color=&quot;#33ff55&quot; style=&quot;font-size: 40px; background-color: rgb(38, 0, 0);&quot;&gt;12&lt;br style=&quot;font-size: 40px;&quot;&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=40;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="460" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kToCdCIehFokKmHCk9tp-15" value="&lt;font color=&quot;#33ff55&quot; style=&quot;font-size: 40px; background-color: rgb(38, 0, 0);&quot;&gt;13&lt;br style=&quot;font-size: 40px;&quot;&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=40;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="360" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
