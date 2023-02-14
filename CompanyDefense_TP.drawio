@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-14T17:20:21.244Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="akxR-12_U-jdehdXyEPU" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-14T17:20:30.735Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="CCNsHXn-Zf936z-C769t" version="20.8.20" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1312" dy="1809" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -628,7 +628,7 @@
         <mxCell id="jXVEW7oka6BfaIIjHtfz-1" value="+ mustTurn: Turn" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="jXVEW7oka6BfaIIjHtfz-0">
           <mxGeometry y="26" width="250" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="jXVEW7oka6BfaIIjHtfz-12" value="+ next: PathTile" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="jXVEW7oka6BfaIIjHtfz-0">
+        <mxCell id="jXVEW7oka6BfaIIjHtfz-12" value="+ next: PathTile || Unit" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="jXVEW7oka6BfaIIjHtfz-0">
           <mxGeometry y="52" width="250" height="26" as="geometry" />
         </mxCell>
         <mxCell id="jXVEW7oka6BfaIIjHtfz-13" value="+ isLegalForTower: Boolean" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="jXVEW7oka6BfaIIjHtfz-0">
