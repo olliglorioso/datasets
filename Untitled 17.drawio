@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-11T10:28:33.369Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="x-GccNrYE_o5Fa5rlv3U" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-11T10:28:53.097Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="KACVfeGteFnLGqjB3P94" version="20.8.23" type="github">
   <diagram name="Page-1" id="3jNbuiG4JJCg7Hkz3Z7T">
     <mxGraphModel dx="619" dy="833" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -161,7 +161,7 @@
           <mxGeometry y="26" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="YPll27ozu9HzENL22vCL-59" value="Player" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="720" y="410" width="140" height="130" as="geometry" />
+          <mxGeometry x="720" y="410" width="140" height="156" as="geometry" />
         </mxCell>
         <mxCell id="YPll27ozu9HzENL22vCL-60" value="name PK" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="YPll27ozu9HzENL22vCL-59">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
@@ -172,8 +172,11 @@
         <mxCell id="YPll27ozu9HzENL22vCL-62" value="dob" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="YPll27ozu9HzENL22vCL-59">
           <mxGeometry y="78" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="YPll27ozu9HzENL22vCL-63" value="address" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="YPll27ozu9HzENL22vCL-59">
+        <mxCell id="YPll27ozu9HzENL22vCL-64" value="goals" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="YPll27ozu9HzENL22vCL-59">
           <mxGeometry y="104" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="YPll27ozu9HzENL22vCL-63" value="assists" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="YPll27ozu9HzENL22vCL-59">
+          <mxGeometry y="130" width="140" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
