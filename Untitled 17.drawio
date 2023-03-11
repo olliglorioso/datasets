@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-11T10:45:04.764Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="TmZFnlg24XIxF546ns1c" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-11T10:45:17.467Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="YA5SsCgsXCUpMlD6IOXl" version="20.8.23" type="github">
   <diagram name="Page-1" id="3jNbuiG4JJCg7Hkz3Z7T">
     <mxGraphModel dx="1268" dy="840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -131,16 +131,16 @@
           <mxGeometry x="280" y="900" width="50" height="20" as="geometry" />
         </mxCell>
         <mxCell id="YPll27ozu9HzENL22vCL-43" value="d) There are couple reasons, we should &lt;b&gt;not &lt;/b&gt;use email as an additional primary key:&lt;br&gt;- Primary keys should be constants. Emails used by customers may change often.&lt;br&gt;- If we used email as an additional primary key, we have to store it in Account-table as well, in addition to the SSN. We shouldn&#39;t store information in many places." style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="425" y="600" width="240" height="320" as="geometry" />
+          <mxGeometry x="425" y="600" width="305" height="320" as="geometry" />
         </mxCell>
         <mxCell id="YPll27ozu9HzENL22vCL-44" value="Team" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="740" y="250" width="140" height="52" as="geometry" />
+          <mxGeometry x="920" y="300" width="140" height="52" as="geometry" />
         </mxCell>
         <mxCell id="YPll27ozu9HzENL22vCL-45" value="name" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="YPll27ozu9HzENL22vCL-44">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="YPll27ozu9HzENL22vCL-49" value="Fan" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="900" y="370" width="140" height="130" as="geometry" />
+          <mxGeometry x="1080" y="420" width="140" height="130" as="geometry" />
         </mxCell>
         <mxCell id="YPll27ozu9HzENL22vCL-50" value="name" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="YPll27ozu9HzENL22vCL-49">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
@@ -155,13 +155,13 @@
           <mxGeometry y="104" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="YPll27ozu9HzENL22vCL-54" value="Color" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="830" y="130" width="140" height="52" as="geometry" />
+          <mxGeometry x="1010" y="180" width="140" height="52" as="geometry" />
         </mxCell>
         <mxCell id="YPll27ozu9HzENL22vCL-55" value="color PK" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="YPll27ozu9HzENL22vCL-54">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="YPll27ozu9HzENL22vCL-59" value="Player" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="680" y="360" width="140" height="156" as="geometry" />
+          <mxGeometry x="860" y="410" width="140" height="156" as="geometry" />
         </mxCell>
         <mxCell id="YPll27ozu9HzENL22vCL-60" value="name PK" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="YPll27ozu9HzENL22vCL-59">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
