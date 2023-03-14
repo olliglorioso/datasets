@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-14T14:26:09.635Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="FAlRG-SsgVSHQb55AuID" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-14T14:26:17.055Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="ZHx6eAs0plICk5MOCTZ8" version="21.0.6" type="github">
   <diagram name="Page-1" id="3jNbuiG4JJCg7Hkz3Z7T">
     <mxGraphModel dx="523" dy="778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -203,7 +203,7 @@
         <mxCell id="uzC9cOAEqsCL33Z8MiUO-5" value="1" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1130" y="210" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="uzC9cOAEqsCL33Z8MiUO-6" value="Has-fav-players" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.006;entryY=0.748;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;exitX=-0.008;exitY=0.358;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="YPll27ozu9HzENL22vCL-50" target="YPll27ozu9HzENL22vCL-60">
+        <mxCell id="uzC9cOAEqsCL33Z8MiUO-6" value="Is-fav-player-to" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.006;entryY=0.748;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;exitX=-0.008;exitY=0.358;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="YPll27ozu9HzENL22vCL-50" target="YPll27ozu9HzENL22vCL-60">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1150" y="485.0344827586207" as="sourcePoint" />
           </mxGeometry>
