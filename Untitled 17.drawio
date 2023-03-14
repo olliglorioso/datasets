@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-14T14:25:41.660Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="j39ffu0d5LFpLQvQzg3x" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-14T14:26:09.635Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="FAlRG-SsgVSHQb55AuID" version="21.0.6" type="github">
   <diagram name="Page-1" id="3jNbuiG4JJCg7Hkz3Z7T">
     <mxGraphModel dx="523" dy="778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -133,8 +133,10 @@
         <mxCell id="YPll27ozu9HzENL22vCL-43" value="d) There are a couple reasons, we should &lt;b&gt;not &lt;/b&gt;use email as an additional primary key:&lt;br&gt;- Primary keys should be constants. Emails used by customers may change often.&lt;br&gt;- If we used email as an additional primary key, we have to store it in Account-table as well, in addition to the SSN. We shouldn&#39;t store information in many places if possible." style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="425" y="600" width="305" height="320" as="geometry" />
         </mxCell>
-        <mxCell id="GDEP8MRkRFMcpaGVtSI1-4" value="Has-fav-team" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;fontSize=12;endArrow=none;endFill=0;" parent="1" source="YPll27ozu9HzENL22vCL-44" target="YPll27ozu9HzENL22vCL-49" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="GDEP8MRkRFMcpaGVtSI1-4" value="Is-fav-team-to" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;fontSize=12;endArrow=none;endFill=0;" parent="1" source="YPll27ozu9HzENL22vCL-44" target="YPll27ozu9HzENL22vCL-49" edge="1">
+          <mxGeometry x="-0.292" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="GDEP8MRkRFMcpaGVtSI1-6" value="Is-fav-color-to" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=12;endArrow=none;endFill=0;entryX=0.214;entryY=1.015;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="YPll27ozu9HzENL22vCL-44" target="YPll27ozu9HzENL22vCL-55" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -152,7 +154,7 @@
           <mxGeometry y="26" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="GDEP8MRkRFMcpaGVtSI1-5" value="Is-fav-color-to" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.998;entryY=0.231;entryDx=0;entryDy=0;fontSize=12;endArrow=none;endFill=0;entryPerimeter=0;" parent="1" source="YPll27ozu9HzENL22vCL-49" target="YPll27ozu9HzENL22vCL-55" edge="1">
-          <mxGeometry x="-0.0006" relative="1" as="geometry">
+          <mxGeometry x="-0.0016" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
