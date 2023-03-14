@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-11T18:10:14.941Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="ffww14S2IQx5RSqNdxA3" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-14T13:50:19.765Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="14bKUVWKv8CQFNq81nhm" version="21.0.6" type="github">
   <diagram name="Page-1" id="3jNbuiG4JJCg7Hkz3Z7T">
-    <mxGraphModel dx="668" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="523" dy="778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -133,10 +133,10 @@
         <mxCell id="YPll27ozu9HzENL22vCL-43" value="d) There are a couple reasons, we should &lt;b&gt;not &lt;/b&gt;use email as an additional primary key:&lt;br&gt;- Primary keys should be constants. Emails used by customers may change often.&lt;br&gt;- If we used email as an additional primary key, we have to store it in Account-table as well, in addition to the SSN. We shouldn&#39;t store information in many places if possible." style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="425" y="600" width="305" height="320" as="geometry" />
         </mxCell>
-        <mxCell id="GDEP8MRkRFMcpaGVtSI1-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;fontSize=15;endArrow=none;endFill=0;" edge="1" parent="1" source="YPll27ozu9HzENL22vCL-44" target="YPll27ozu9HzENL22vCL-49">
+        <mxCell id="GDEP8MRkRFMcpaGVtSI1-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;fontSize=15;endArrow=none;endFill=0;" parent="1" source="YPll27ozu9HzENL22vCL-44" target="YPll27ozu9HzENL22vCL-49" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GDEP8MRkRFMcpaGVtSI1-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=15;endArrow=none;endFill=0;entryX=0.214;entryY=1.015;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="YPll27ozu9HzENL22vCL-44" target="YPll27ozu9HzENL22vCL-55">
+        <mxCell id="GDEP8MRkRFMcpaGVtSI1-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=15;endArrow=none;endFill=0;entryX=0.214;entryY=1.015;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="YPll27ozu9HzENL22vCL-44" target="YPll27ozu9HzENL22vCL-55" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1040" y="240" as="targetPoint" />
           </mxGeometry>
@@ -147,7 +147,7 @@
         <mxCell id="YPll27ozu9HzENL22vCL-45" value="name PK" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="YPll27ozu9HzENL22vCL-44" vertex="1">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="GDEP8MRkRFMcpaGVtSI1-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;endArrow=none;endFill=0;" edge="1" parent="1" source="YPll27ozu9HzENL22vCL-49" target="YPll27ozu9HzENL22vCL-54">
+        <mxCell id="GDEP8MRkRFMcpaGVtSI1-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;endArrow=none;endFill=0;" parent="1" source="YPll27ozu9HzENL22vCL-49" target="YPll27ozu9HzENL22vCL-54" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YPll27ozu9HzENL22vCL-49" value="Fan" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
@@ -189,10 +189,10 @@
         <mxCell id="YPll27ozu9HzENL22vCL-63" value="assists" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="YPll27ozu9HzENL22vCL-59" vertex="1">
           <mxGeometry y="130" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="GDEP8MRkRFMcpaGVtSI1-1" value="0..1" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="GDEP8MRkRFMcpaGVtSI1-1" value="0..1" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="920" y="341" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GDEP8MRkRFMcpaGVtSI1-2" value="0..*" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="GDEP8MRkRFMcpaGVtSI1-2" value="0..*" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="830" y="400" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
