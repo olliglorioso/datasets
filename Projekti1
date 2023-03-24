@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-24T12:22:13.013Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="jFtFoAT2U8h1bzsornHh" version="21.0.10" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-24T12:22:19.663Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="tzD6moyBBv39bcKAC2yd" version="21.0.10" type="github">
   <diagram name="Page-1" id="dXfEtZdPE3UoTmZZjfNc">
     <mxGraphModel dx="1500" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -124,7 +124,7 @@
           <mxGeometry y="52" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="dCp1ZqV_h_euyRboPMVC-40" value="Building" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="880" width="140" height="78" as="geometry" />
+          <mxGeometry x="70" y="900" width="140" height="78" as="geometry" />
         </mxCell>
         <mxCell id="dCp1ZqV_h_euyRboPMVC-43" value="name" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="dCp1ZqV_h_euyRboPMVC-40">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
@@ -132,7 +132,7 @@
         <mxCell id="dCp1ZqV_h_euyRboPMVC-44" value="street" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="dCp1ZqV_h_euyRboPMVC-40">
           <mxGeometry y="52" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="dCp1ZqV_h_euyRboPMVC-49" value="Belongs-tol" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="dCp1ZqV_h_euyRboPMVC-45" target="dCp1ZqV_h_euyRboPMVC-41">
+        <mxCell id="dCp1ZqV_h_euyRboPMVC-49" value="Belongs-to" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="dCp1ZqV_h_euyRboPMVC-45" target="dCp1ZqV_h_euyRboPMVC-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dCp1ZqV_h_euyRboPMVC-45" value="Equipment" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
