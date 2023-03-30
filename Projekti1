@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-30T14:09:22.764Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="IBQcrU3ImQ8u3Q9-iVi2" version="21.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-30T14:10:00.453Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="uwW7rv0VdBgsQtz-iowz" version="21.1.1" type="github">
   <diagram name="Page-1" id="dXfEtZdPE3UoTmZZjfNc">
-    <mxGraphModel dx="1306" dy="709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1407" dy="839" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -41,13 +41,10 @@
           <mxGeometry x="195" y="425" width="140" height="52" as="geometry" />
         </mxCell>
         <mxCell id="dCp1ZqV_h_euyRboPMVC-16" value="ExerciseGroup" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="390" y="380" width="140" height="78" as="geometry" />
-        </mxCell>
-        <mxCell id="z3tk00vwJlx5mGZiFf2Z-4" value="name PK" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="dCp1ZqV_h_euyRboPMVC-16" vertex="1">
-          <mxGeometry y="26" width="140" height="26" as="geometry" />
+          <mxGeometry x="390" y="380" width="140" height="52" as="geometry" />
         </mxCell>
         <mxCell id="gqCbEJQ5Y-O6Q3nEaQsK-28" value="maxAttendees" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="dCp1ZqV_h_euyRboPMVC-16" vertex="1">
-          <mxGeometry y="52" width="140" height="26" as="geometry" />
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="dCp1ZqV_h_euyRboPMVC-17" value="Lecture" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="530" y="520" width="140" height="52" as="geometry" />
@@ -268,7 +265,7 @@
             <mxPoint x="505" y="659" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Id9qTiJK95iohz1cbhpT-9" value="" style="endArrow=block;html=1;rounded=0;entryX=0.643;entryY=0;entryDx=0;entryDy=0;endFill=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" target="TxR8sGdVCAiOe2pyUN6y-9">
+        <mxCell id="Id9qTiJK95iohz1cbhpT-9" value="" style="endArrow=block;html=1;rounded=0;entryX=0.643;entryY=0;entryDx=0;entryDy=0;endFill=0;exitX=0.119;exitY=0.982;exitDx=0;exitDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="gqCbEJQ5Y-O6Q3nEaQsK-28" target="TxR8sGdVCAiOe2pyUN6y-9">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="408" y="458" as="sourcePoint" />
             <mxPoint x="443" y="581" as="targetPoint" />
