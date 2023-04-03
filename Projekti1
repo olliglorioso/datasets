@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-03T11:46:52.076Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="td1C79kZgOgnntWXcEDS" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-03T11:49:27.747Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="GBfNEd5t9Ng5xhjzIR6Z" version="21.0.6" type="github">
   <diagram name="Page-1" id="dXfEtZdPE3UoTmZZjfNc">
     <mxGraphModel dx="1737" dy="2260" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -152,8 +152,8 @@
         <mxCell id="zNuU_7l78gbjdCdt406n-5" value="Exercise-points" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="DhJfsTVlg9oheJh1SySm-154" target="DhJfsTVlg9oheJh1SySm-119" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zNuU_7l78gbjdCdt406n-14" value="Registered-in" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="DhJfsTVlg9oheJh1SySm-154" target="DhJfsTVlg9oheJh1SySm-127" edge="1">
-          <mxGeometry x="0.0582" y="1" relative="1" as="geometry">
+        <mxCell id="zNuU_7l78gbjdCdt406n-14" value="Exam-registration" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="DhJfsTVlg9oheJh1SySm-154" target="DhJfsTVlg9oheJh1SySm-127" edge="1">
+          <mxGeometry x="0.0582" y="21" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="469" y="-120" />
               <mxPoint x="469" y="190" />
