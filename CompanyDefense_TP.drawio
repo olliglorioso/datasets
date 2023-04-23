@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-23T16:23:53.872Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="yo0tA0bkSDkN4r2MgAW6" version="21.1.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-23T16:27:11.288Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="ZPT5pdv5Vjb-t_Gb7tsh" version="21.1.9" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1760" dy="1839" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2006" dy="2015" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -785,16 +785,19 @@
           <mxGeometry y="86" width="370" height="26" as="geometry" />
         </mxCell>
         <mxCell id="ZoHBZa0ynNgB3gpXhpH1-19" value="State" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1190" y="280" width="140" height="120" as="geometry" />
+          <mxGeometry x="1010" y="202" width="320" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="ZoHBZa0ynNgB3gpXhpH1-20" value="screenHeight" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="ZoHBZa0ynNgB3gpXhpH1-19">
-          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        <mxCell id="ZoHBZa0ynNgB3gpXhpH1-20" value="screenHeight: scalafx.DoubleProperty" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="ZoHBZa0ynNgB3gpXhpH1-19">
+          <mxGeometry y="30" width="320" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ZoHBZa0ynNgB3gpXhpH1-21" value="screenWidth" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="ZoHBZa0ynNgB3gpXhpH1-19">
-          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        <mxCell id="ZoHBZa0ynNgB3gpXhpH1-21" value="screenWidth: scalafx.DoubleProperty" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="ZoHBZa0ynNgB3gpXhpH1-19">
+          <mxGeometry y="60" width="320" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ZoHBZa0ynNgB3gpXhpH1-22" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="ZoHBZa0ynNgB3gpXhpH1-19">
-          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        <mxCell id="ZoHBZa0ynNgB3gpXhpH1-22" value="variates: scalafxObjectProperty(Map[String, Double])" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="ZoHBZa0ynNgB3gpXhpH1-19">
+          <mxGeometry y="90" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZoHBZa0ynNgB3gpXhpH1-23" value="difficulty: scalafx.IntegerProperty" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="ZoHBZa0ynNgB3gpXhpH1-19">
+          <mxGeometry y="120" width="320" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
