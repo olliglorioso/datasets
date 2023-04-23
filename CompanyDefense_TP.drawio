@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-23T18:29:43.550Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="9yKmiYjcUPsEXil3MAG8" version="21.1.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-23T18:32:10.134Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="6U5Iv5kBpoI0Lq_7bCMq" version="21.1.9" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2898" dy="2062" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3377" dy="2406" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -767,7 +767,7 @@
         <mxCell id="5mX695hrPQp23sTDcBD4-9" value="UI package" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-149.86" y="-650" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ZoHBZa0ynNgB3gpXhpH1-0" value="MainUI" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="ZoHBZa0ynNgB3gpXhpH1-0" value="MainUI: JFXApp3" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1400" y="384" width="370" height="112" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
@@ -799,17 +799,8 @@
         <mxCell id="ZoHBZa0ynNgB3gpXhpH1-23" value="difficulty: scalafx.IntegerProperty" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="ZoHBZa0ynNgB3gpXhpH1-19">
           <mxGeometry y="120" width="320" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ZoHBZa0ynNgB3gpXhpH1-29" value="" style="endArrow=block;html=1;rounded=0;exitX=0.5;exitY=1.027;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endFill=0;endSize=11;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ZoHBZa0ynNgB3gpXhpH1-17" target="ZoHBZa0ynNgB3gpXhpH1-30">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1590" y="490" as="sourcePoint" />
-            <mxPoint x="1585" y="570" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ZoHBZa0ynNgB3gpXhpH1-30" value="&lt;u&gt;scalafx.JFXApp3&lt;/u&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1530" y="575" width="110" height="50" as="geometry" />
-        </mxCell>
         <mxCell id="ZoHBZa0ynNgB3gpXhpH1-32" value="GameplayUI" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1550" y="-462" width="440" height="632" as="geometry">
+          <mxGeometry x="1370" y="-342" width="440" height="632" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -911,7 +902,7 @@
         <mxCell id="ZoHBZa0ynNgB3gpXhpH1-47" value="+ start.setSceneTo(scene: scalafx.Scene): Unit" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ZoHBZa0ynNgB3gpXhpH1-40">
           <mxGeometry y="164" width="370" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="ZoHBZa0ynNgB3gpXhpH1-48" value="SettingsUI" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="ZoHBZa0ynNgB3gpXhpH1-48" value="SettingsUI: Scene" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1720" y="550" width="370" height="100" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
@@ -924,24 +915,6 @@
         </mxCell>
         <mxCell id="ZoHBZa0ynNgB3gpXhpH1-53" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="ZoHBZa0ynNgB3gpXhpH1-48">
           <mxGeometry y="78" width="370" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="ZoHBZa0ynNgB3gpXhpH1-75" value="&lt;u&gt;scalafx.Scene&lt;/u&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1880" y="730" width="110" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="ZoHBZa0ynNgB3gpXhpH1-76" value="&lt;u&gt;scalafx.Scene&lt;/u&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1186" y="810" width="110" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="ZoHBZa0ynNgB3gpXhpH1-79" value="" style="endArrow=block;html=1;rounded=0;exitX=0.499;exitY=0.995;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endFill=0;endSize=11;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ZoHBZa0ynNgB3gpXhpH1-47" target="ZoHBZa0ynNgB3gpXhpH1-76">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1240.71" y="724" as="sourcePoint" />
-            <mxPoint x="1240.71" y="802" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ZoHBZa0ynNgB3gpXhpH1-81" value="" style="endArrow=block;html=1;rounded=0;exitX=0.5;exitY=1.027;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endFill=0;endSize=11;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="ZoHBZa0ynNgB3gpXhpH1-75">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1924.5" y="650" as="sourcePoint" />
-            <mxPoint x="1925" y="740" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
