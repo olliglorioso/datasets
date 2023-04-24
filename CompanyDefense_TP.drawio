@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-24T17:53:30.203Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="MYU81y_TH5FKaIuQK-eO" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-24T17:54:11.534Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="TQU99ZdFKBaUH8Y_Whfu" version="21.2.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2333" dy="1656" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5387" dy="3849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -1488,7 +1488,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ZHAzejeRJrplXxW-ck6d-15" value="&lt;&lt;Enum&gt;&gt;&#xa;EnemyType" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1040" y="-840" width="190" height="104" as="geometry" />
+          <mxGeometry x="1050" y="-800" width="190" height="104" as="geometry" />
         </mxCell>
         <mxCell id="ZHAzejeRJrplXxW-ck6d-16" value="BasicEnemy" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ZHAzejeRJrplXxW-ck6d-15">
           <mxGeometry y="26" width="190" height="26" as="geometry" />
@@ -1552,9 +1552,6 @@
         </mxCell>
         <mxCell id="ZHAzejeRJrplXxW-ck6d-46" value="*" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="2421" y="270" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ZHAzejeRJrplXxW-ck6d-47" value="+ getHit (damage: Double, slowDown: Double)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="940" y="-716" width="260" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
