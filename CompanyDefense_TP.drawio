@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-24T19:28:10.131Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="UaKnD7PjRneLLy_9Cq1j" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-24T19:30:19.458Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="fKcQlYEdDrdMmBE3kCJC" version="21.2.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="552" dy="1479" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="797" dy="1617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -297,68 +297,65 @@
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZoHBZa0ynNgB3gpXhpH1-136" value="+ boundBox: Double" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ZoHBZa0ynNgB3gpXhpH1-135" vertex="1">
+        <mxCell id="ZoHBZa0ynNgB3gpXhpH1-142" value="+ attackSpeed: Double" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ZoHBZa0ynNgB3gpXhpH1-135" vertex="1">
           <mxGeometry y="26" width="340" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="ZoHBZa0ynNgB3gpXhpH1-142" value="+ attackSpeed: Double" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ZoHBZa0ynNgB3gpXhpH1-135" vertex="1">
+        <mxCell id="ZoHBZa0ynNgB3gpXhpH1-143" value="+ lastBulletInit: Long" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ZoHBZa0ynNgB3gpXhpH1-135" vertex="1">
           <mxGeometry y="52" width="340" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="ZoHBZa0ynNgB3gpXhpH1-143" value="+ lastBulletInit: Long" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ZoHBZa0ynNgB3gpXhpH1-135" vertex="1">
+        <mxCell id="ZoHBZa0ynNgB3gpXhpH1-145" value="+ damage: Double" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ZoHBZa0ynNgB3gpXhpH1-135" vertex="1">
           <mxGeometry y="78" width="340" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="ZoHBZa0ynNgB3gpXhpH1-145" value="+ damage: Double" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ZoHBZa0ynNgB3gpXhpH1-135" vertex="1">
+        <mxCell id="ZoHBZa0ynNgB3gpXhpH1-146" value="+ slowDown: Double" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ZoHBZa0ynNgB3gpXhpH1-135" vertex="1">
           <mxGeometry y="104" width="340" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="ZoHBZa0ynNgB3gpXhpH1-146" value="+ slowDown: Double" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ZoHBZa0ynNgB3gpXhpH1-135" vertex="1">
+        <mxCell id="ZoHBZa0ynNgB3gpXhpH1-147" value="+ bulletSpeed: int" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ZoHBZa0ynNgB3gpXhpH1-135" vertex="1">
           <mxGeometry y="130" width="340" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="ZoHBZa0ynNgB3gpXhpH1-147" value="+ bulletSpeed: int" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ZoHBZa0ynNgB3gpXhpH1-135" vertex="1">
+        <mxCell id="ZoHBZa0ynNgB3gpXhpH1-148" value="+ level: scalafx.IntegerProperty" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ZoHBZa0ynNgB3gpXhpH1-135" vertex="1">
           <mxGeometry y="156" width="340" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="ZoHBZa0ynNgB3gpXhpH1-148" value="+ level: scalafx.IntegerProperty" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ZoHBZa0ynNgB3gpXhpH1-135" vertex="1">
+        <mxCell id="ZoHBZa0ynNgB3gpXhpH1-149" value="+ maxLevel: Int" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ZoHBZa0ynNgB3gpXhpH1-135" vertex="1">
           <mxGeometry y="182" width="340" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="ZoHBZa0ynNgB3gpXhpH1-149" value="+ maxLevel: Int" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ZoHBZa0ynNgB3gpXhpH1-135" vertex="1">
+        <mxCell id="ZoHBZa0ynNgB3gpXhpH1-150" value="+ enemyPriority: PriorityQueue[Enemy]" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ZoHBZa0ynNgB3gpXhpH1-135" vertex="1">
           <mxGeometry y="208" width="340" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="ZoHBZa0ynNgB3gpXhpH1-150" value="+ enemyPriority: PriorityQueue[Enemy]" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ZoHBZa0ynNgB3gpXhpH1-135" vertex="1">
-          <mxGeometry y="234" width="340" height="26" as="geometry" />
-        </mxCell>
         <mxCell id="ZoHBZa0ynNgB3gpXhpH1-139" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="ZoHBZa0ynNgB3gpXhpH1-135" vertex="1">
-          <mxGeometry y="260" width="340" height="8" as="geometry" />
+          <mxGeometry y="234" width="340" height="8" as="geometry" />
         </mxCell>
         <mxCell id="ZoHBZa0ynNgB3gpXhpH1-140" value="- enemyPriorityCalc (enemy: Enemy): Double" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ZoHBZa0ynNgB3gpXhpH1-135" vertex="1">
-          <mxGeometry y="268" width="340" height="26" as="geometry" />
+          <mxGeometry y="242" width="340" height="26" as="geometry" />
         </mxCell>
         <mxCell id="ZoHBZa0ynNgB3gpXhpH1-141" value="+ sellPrice(): Int" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ZoHBZa0ynNgB3gpXhpH1-135" vertex="1">
-          <mxGeometry y="294" width="340" height="26" as="geometry" />
+          <mxGeometry y="268" width="340" height="26" as="geometry" />
         </mxCell>
         <mxCell id="ZoHBZa0ynNgB3gpXhpH1-151" value="+ upgradePrice (): Int" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ZoHBZa0ynNgB3gpXhpH1-135" vertex="1">
-          <mxGeometry y="320" width="340" height="26" as="geometry" />
+          <mxGeometry y="294" width="340" height="26" as="geometry" />
         </mxCell>
         <mxCell id="ZoHBZa0ynNgB3gpXhpH1-167" value="+ upgradeFeatures (): Unit" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ZoHBZa0ynNgB3gpXhpH1-135" vertex="1">
-          <mxGeometry y="346" width="340" height="26" as="geometry" />
+          <mxGeometry y="320" width="340" height="26" as="geometry" />
         </mxCell>
         <mxCell id="ZoHBZa0ynNgB3gpXhpH1-168" value="+ upgrade (money: Double): Double" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ZoHBZa0ynNgB3gpXhpH1-135" vertex="1">
-          <mxGeometry y="372" width="340" height="26" as="geometry" />
+          <mxGeometry y="346" width="340" height="26" as="geometry" />
         </mxCell>
         <mxCell id="ZoHBZa0ynNgB3gpXhpH1-169" value="+ addEnemyToPriorityQueue (enemy: Enemy): Unit" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ZoHBZa0ynNgB3gpXhpH1-135" vertex="1">
-          <mxGeometry y="398" width="340" height="26" as="geometry" />
+          <mxGeometry y="372" width="340" height="26" as="geometry" />
         </mxCell>
         <mxCell id="ZoHBZa0ynNgB3gpXhpH1-170" value="+ clearPriorityQueue (): Unit" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ZoHBZa0ynNgB3gpXhpH1-135" vertex="1">
-          <mxGeometry y="424" width="340" height="26" as="geometry" />
+          <mxGeometry y="398" width="340" height="26" as="geometry" />
         </mxCell>
         <mxCell id="ZoHBZa0ynNgB3gpXhpH1-171" value="- canShootTowardsEnemy (enemy: Enemy): Boolean" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ZoHBZa0ynNgB3gpXhpH1-135" vertex="1">
-          <mxGeometry y="450" width="340" height="26" as="geometry" />
+          <mxGeometry y="424" width="340" height="26" as="geometry" />
         </mxCell>
         <mxCell id="ZoHBZa0ynNgB3gpXhpH1-172" value="- canInitNewBullet (time: Long, lastBulletInit: Long): Boolean" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ZoHBZa0ynNgB3gpXhpH1-135" vertex="1">
-          <mxGeometry y="476" width="340" height="26" as="geometry" />
+          <mxGeometry y="450" width="340" height="26" as="geometry" />
         </mxCell>
         <mxCell id="ZoHBZa0ynNgB3gpXhpH1-174" value="+ initBullet (time: Long): Bullet" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ZoHBZa0ynNgB3gpXhpH1-135" vertex="1">
-          <mxGeometry y="502" width="340" height="26" as="geometry" />
+          <mxGeometry y="476" width="340" height="26" as="geometry" />
         </mxCell>
         <mxCell id="ZoHBZa0ynNgB3gpXhpH1-175" value="+ rotateTowardsPriorityEnemy (): Unit" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ZoHBZa0ynNgB3gpXhpH1-135" vertex="1">
-          <mxGeometry y="528" width="340" height="26" as="geometry" />
+          <mxGeometry y="502" width="340" height="26" as="geometry" />
         </mxCell>
         <mxCell id="ZoHBZa0ynNgB3gpXhpH1-176" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ZoHBZa0ynNgB3gpXhpH1-37" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
