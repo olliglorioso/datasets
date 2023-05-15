@@ -301,14 +301,60 @@ CREATE TABLE EnrolledIn (
 CREATE INDEX SeatsIndex on Hall(seats);
 CREATE INDEX HallBuildingNameIndex ON Reservation(hallName, buildingName);
 CREATE INDEX CourseInfoIndex ON Lecture(courseCode, courseStartDate);
-CREATE INDEX CourseInfoIndex ON ExerciseSession(courseCode, courseStartDate);
+
+-- !!!!!!! TODO: This is here twice??
+--CREATE INDEX CourseInfoIndex ON ExerciseSession(courseCode, courseStartDate);
 
 --Insert example data
-INSERT INTO GradeOf (studentID, eventID, grade) VALUES 
-    ('10001', 8, 5),
-    ('10002', 9, 4),
-    ('10003', 9, 5),
-    ('10001', 10, 4);
+INSERT INTO Student (studentID, studentName, birthDate, degreeProgram, enrollDate, studyEndDate) VALUES
+    ('10001', 'Alice Johnson', '2001-05-03', 'Computer Science', '2019-09-01', '2023-06-01'),
+    ('10002', 'Bob Smith', '2000-12-15', 'Mathematics', '2018-09-01', '2022-06-01'),
+    ('10003', 'Charlie Brown', '2002-02-21', 'Physics', '2020-09-01', '2024-06-01'),
+    ('10004', 'Diana Rodriguez', '2001-09-10', 'Chemical Engineering', '2019-09-01', '2023-06-01'),
+    ('10005', 'Emily Wilson', '2000-07-07', 'Computer Science', '2018-09-01', '2022-06-01');
+
+INSERT INTO Employee VALUES 
+    (1, 'Cleaner', 'Sirkka Siivooja', 'Esimerkkikatu 3, 02200 Espoo', '+358111111111', '2022-01-01', '2024-01-01'),
+    (2, 'Professor', 'Petri Professori', 'Esimkuja 69, 05500 Helsinki', '+35822222222', '2021-01-01', '2025-01-01'),
+    (3, 'Principal', 'Reijo Rehtori', 'Jokukatu 42, 04200 Kirkkonummi', '+358123456789', '2020-05-01', '2025-10-19');
+    
+INSERT INTO Course (code, courseName, credits) VALUES 
+    ('CS-101', 'Introduction to Computer Science', 4),
+    ('MS-201', 'Calculus II', 5),
+    ('PHYS-101', 'Mechanics', 5),
+    ('CHEM-201', 'Organic Chemistry', 3),
+    ('LC-1101', 'English Composition', 3);
+    
+INSERT INTO Building (buildingName, street) VALUES
+    ('Computer Science building', 'Tietotie 5'),
+    ('IEM building', 'Tuotantotalouskuja 22'),
+    ('Chemical laboratory', 'Labrakuja 69');
+
+INSERT INTO Event (eventID, eventStart, eventEnd) VALUES
+    (1, '2023-06-01 09:00:00', '2023-06-01 11:00:00'),
+    (2, '2023-06-01 13:00:00', '2023-06-01 15:00:00'),
+    (3, '2023-06-02 10:00:00', '2023-06-02 12:00:00'),
+    (4, '2023-06-02 14:00:00', '2023-06-02 16:00:00'),
+    (5, '2023-06-03 08:00:00', '2023-06-03 10:00:00'),
+    (6, '2023-06-03 12:00:00', '2023-06-03 14:00:00'),
+    (7, '2023-06-04 11:00:00', '2023-06-04 13:00:00'),
+    (8, '2023-06-04 15:00:00', '2023-06-04 17:00:00'),
+    (9, '2023-06-05 10:00:00', '2023-06-05 12:00:00'),
+    (10, '2023-06-05 14:00:00', '2023-06-05 16:00:00');
+
+INSERT INTO Equipment (equipmentName) VALUES
+    ('Microscope'),
+    ('Projector'),
+    ('Computer');
+    
+INSERT INTO CourseInstance (courseStartDate, courseCode) VALUES 
+    ('2022-09-01', 'CS-101'),
+    ('2022-09-01', 'MS-201'),
+    ('2022-09-01', 'PHYS-101'),
+    ('2023-01-09', 'CHEM-201'),
+    ('2023-01-09', 'LC-1101'),
+    ('2023-09-01', 'CS-101'),
+    ('2023-09-01', 'MS-201');
     
 INSERT INTO ExerciseGroup (courseStartDate, courseCode, groupName, maxAttendees) VALUES 
     ('2022-09-01', 'CS-101', 'Group A', 50),
@@ -319,11 +365,14 @@ INSERT INTO ExerciseGroup (courseStartDate, courseCode, groupName, maxAttendees)
     ('2023-09-01', 'CS-101', 'Group F', 50),
     ('2023-09-01', 'MS-201', 'Group G', 50);
     
-
-INSERT INTO Building (buildingName, street) VALUES
-    ('Computer Science building', 'Tietotie 5'),
-    ('IEM building', 'Tuotantotalouskuja 22'),
-    ('Chemical laboratory', 'Labrakuja 69');
+INSERT INTO Hall (hallName, buildingName, seats, maxExaminees) VALUES
+    ('Auditorium', 'Computer Science building', 500, 250),
+    ('Grand Hall', 'Computer Science building', 1000, 500),
+    ('Conference Room', 'Computer Science building', 50, 30),
+    ('Lecture Hall', 'Chemical laboratory', 500, 250),
+    ('Cafeteria', 'Chemical laboratory', 1000, 500),
+    ('Laboratory 1', 'Chemical laboratory', 500, 250),
+    ('Guild room', 'IEM building', 1000, 500);
     
 INSERT INTO BelongsToHall (equipmentName, hallName, buildingName, amount) VALUES
     ('Microscope', 'Laboratory 1', 'Chemical laboratory', 20),
@@ -333,12 +382,11 @@ INSERT INTO BelongsToHall (equipmentName, hallName, buildingName, amount) VALUES
     ('Computer', 'Lecture Hall', 'Chemical laboratory', 50),
     ('Computer', 'Guild room', 'IEM building', 30);
 
-INSERT INTO Student (studentID, studentName, birthDate, degreeProgram, enrollDate, studyEndDate) VALUES
-    ('10001', 'Alice Johnson', '2001-05-03', 'Computer Science', '2019-09-01', '2023-06-01'),
-    ('10002', 'Bob Smith', '2000-12-15', 'Mathematics', '2018-09-01', '2022-06-01'),
-    ('10003', 'Charlie Brown', '2002-02-21', 'Physics', '2020-09-01', '2024-06-01'),
-    ('10004', 'Diana Rodriguez', '2001-09-10', 'Chemical Engineering', '2019-09-01', '2023-06-01'),
-    ('10005', 'Emily Wilson', '2000-07-07', 'Computer Science', '2018-09-01', '2022-06-01');
+
+INSERT INTO Exam (eventID, courseCode) VALUES
+    (8, 'CS-101'),
+    (9, 'MS-201'),
+    (10, 'PHYS-101');
 
 INSERT INTO ExamRegistration (studentID, eventID, registrationDate, languageOfChoice)
 VALUES
@@ -354,14 +402,11 @@ VALUES
     ('10003', 'PHYS-101', '2022-09-01', 85),
     ('10003', 'CHEM-201', '2023-01-09', 70);
 
-INSERT INTO CourseInstance (courseStartDate, courseCode) VALUES 
-    ('2022-09-01', 'CS-101'),
-    ('2022-09-01', 'MS-201'),
-    ('2022-09-01', 'PHYS-101'),
-    ('2023-01-09', 'CHEM-201'),
-    ('2023-01-09', 'LC-1101'),
-    ('2023-09-01', 'CS-101'),
-    ('2023-09-01', 'MS-201');
+INSERT INTO GradeOf (studentID, eventID, grade) VALUES 
+    ('10001', 8, 5),
+    ('10002', 9, 4),
+    ('10003', 9, 5),
+    ('10001', 10, 4);
 
 INSERT INTO EnrolledIn (studentID, exerciseGroupName, courseCode, courseStartDate)
 VALUES 
@@ -371,41 +416,11 @@ VALUES
     ('10002', 'Group C', 'PHYS-101', '2022-09-01'),
     ('10003', 'Group B', 'MS-201', '2022-09-01');
     
-INSERT INTO Hall (hallName, buildingName, seats, maxExaminees) VALUES
-    ('Auditorium', 'Computer Science building', 500, 250),
-    ('Grand Hall', 'Computer Science building', 1000, 500),
-    ('Conference Room', 'Computer Science building', 50, 30),
-    ('Lecture Hall', 'Chemical laboratory', 500, 250),
-    ('Cafeteria', 'Chemical laboratory', 1000, 500),
-    ('Laboratory 1', 'Chemical laboratory', 500, 250),
-    ('Guild room', 'IEM building', 1000, 500);
-    
-INSERT INTO Employee VALUES 
-    (1, 'Cleaner', 'Sirkka Siivooja', 'Esimerkkikatu 3, 02200 Espoo', '+358111111111', '2022-01-01', '2024-01-01'),
-    (2, 'Professor', 'Petri Professori', 'Esimkuja 69, 05500 Helsinki', '+35822222222', '2021-01-01', '2025-01-01'),
-    (3, 'Principal', 'Reijo Rehtori', 'Jokukatu 42, 04200 Kirkkonummi', '+358123456789', '2020-05-01', '2025-10-19');
-
-INSERT INTO Exam (eventID, courseCode) VALUES
-    (8, 'CS-101'),
-    (9, 'MS-201'),
-    (10, 'PHYS-101');
 
 INSERT INTO ExerciseSession (eventID, courseStartDate, courseCode, groupName) VALUES
     (6, '2022-09-01', 'MS-201', 'Group B'),
     (7, '2023-01-09', 'CHEM-201', 'Group D'),
     (5, '2022-09-01', 'CS-101', 'Group A');
-
-INSERT INTO Event (eventID, eventStart, eventEnd) VALUES
-    (1, '2023-06-01 09:00:00', '2023-06-01 11:00:00'),
-    (2, '2023-06-01 13:00:00', '2023-06-01 15:00:00'),
-    (3, '2023-06-02 10:00:00', '2023-06-02 12:00:00'),
-    (4, '2023-06-02 14:00:00', '2023-06-02 16:00:00'),
-    (5, '2023-06-03 08:00:00', '2023-06-03 10:00:00'),
-    (6, '2023-06-03 12:00:00', '2023-06-03 14:00:00'),
-    (7, '2023-06-04 11:00:00', '2023-06-04 13:00:00'),
-    (8, '2023-06-04 15:00:00', '2023-06-04 17:00:00'),
-    (9, '2023-06-05 10:00:00', '2023-06-05 12:00:00'),
-    (10, '2023-06-05 14:00:00', '2023-06-05 16:00:00');
     
 INSERT INTO Reservation (reservationID, eventID, startDate, endDate, reservationMadeDate, buildingName, hallName, madeBy) VALUES
     (1, 1, '2023-06-01 09:00:00', '2023-06-01 11:00:00', '2023-05-30 14:00:00', 'Computer Science building', 'Auditorium', 1),
@@ -418,11 +433,6 @@ INSERT INTO Reservation (reservationID, eventID, startDate, endDate, reservation
     (8, 8, '2023-06-04 15:00:00', '2023-06-04 17:00:00', '2023-06-02 14:00:00', 'Computer Science building', 'Grand Hall', 2),
     (9, 9, '2023-06-05 10:00:00', '2023-06-05 12:00:00', '2023-06-03 11:00:00', 'Chemical laboratory', 'Lecture Hall', 2),
     (10, 10, '2023-06-05 14:00:00', '2023-06-05 16:00:00', '2023-06-03 15:00:00', 'Computer Science building', 'Auditorium', 3);
-
-INSERT INTO Equipment (equipmentName) VALUES
-    ('Microscope'),
-    ('Projector'),
-    ('Computer');
     
 INSERT INTO Lecture (eventID, courseCode, courseStartDate) VALUES
     (4, 'CHEM-201', '2023-01-09'),
@@ -430,16 +440,11 @@ INSERT INTO Lecture (eventID, courseCode, courseStartDate) VALUES
     (2, 'MS-201', '2023-09-01'),
     (3, 'PHYS-101', '2022-09-01');
     
-INSERT INTO Course (code, courseName, credits) VALUES 
-    ('CS-101', 'Introduction to Computer Science', 4),
-    ('MS-201', 'Calculus II', 5),
-    ('PHYS-101', 'Mechanics', 5),
-    ('CHEM-201', 'Organic Chemistry', 3),
-    ('LC-1101', 'English Composition', 3);
+
 
 
 -- Views
-DROP VIEW StudentCredits;
+--DROP VIEW StudentCredits;
 CREATE VIEW StudentCredits(studentID, totalCredits)
 AS
     SELECT Student.studentID, SUM(credits)
