@@ -4,7 +4,7 @@ CREATE TABLE Employee (
     employeeName      TEXT,
     address           TEXT,
     phone             VARCHAR (15),
-    startOfEmployment DATE,
+    startOfEmployment DATE CHECK (startOfEmplyment < endOfEmployment),
     endOfEmployment   DATE,
     PRIMARY KEY (
         employeeID
