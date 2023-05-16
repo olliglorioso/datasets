@@ -8,27 +8,32 @@ FROM ((GradeOf LEFT OUTER JOIN Student ON Student.studentID = GradeOf.studentID)
     JOIN Exam on Exam.EventID = GradeOf.eventID and GradeOf.grade <> 0 AND GradeOf.StudentID = '10002') 
         LEFT OUTER JOIN Course ON Course.code = Exam.courseCode;
 
+-- Check how many students partook in a course instance
+select count(StudentID)
+from EnrolledIn
+where CourseCode = "MS-201" and CourseStartDate = '2022-09-01'
 
--- 2. Check if student in course
+-- 2. Check if student is enrolled in a course instance
 select Count(StudentID) 
 from ExerciseGroup, EnrolledIn
-where ExerciseGroup.courseCode = 'MS-201' and StudentID = '10003' and groupName = exerciseGroupName;
+where ExerciseGroup.courseCode = 'MS-201' and 
+    ExerciseGroup.courseStartDate = '2022-09-01' and StudentID = '10003' and groupName = exerciseGroupName;
 
 -- 3. Check courses that are arranged in future
 select *
 from Course, CourseInstance
-where Course.c ode = CourseInstance.courseCode and courseStartDate > date();
+where Course.code = CourseInstance.courseCode and courseStartDate > date();
 
 -- 4. Get an exerciseGroup Register into it
 select groupName
 from ExerciseGroup, CourseInstance
 where ExerciseGroup.courseCode = CourseInstance.courseCode and 
     ExerciseGroup.courseStartDate = CourseInstance.courseStartDate and 
-        CourseInstance.courseCode = 'MS-201' and CourseInstance.courseStartDate = '2023-09-01'
+        CourseInstance.courseCode = 'MS-201' and CourseInstance.courseStartDate = '2023-09-01';
         
 -- ... Now register for the group
 Insert Into EnrolledIn Values
-('10001', 'Group G', 'MS-201', '2023-09-01')
+('10001', 'Group G', 'MS-201', '2023-09-01');
 
 -- Updating exercise points, TODO: Think this through anew
 Update ExercisePoints
@@ -43,11 +48,17 @@ where studentID in (
     from ExercisePoints
 );
 
+-- Find the halls with 20 computers or over
+Select *
+from Hall, BelongsToHall
+where BelongsToHall.hallName = Hall.hallName and BelongsToHall.equipmentName = 'Computer' 
+    and BelongsToHall.amount >= 20  
+
 -- In a given hall, all reservations in the coming month:
 Select *
 From Reservation
 where date(Reservation.startDate) <= date(date(), '+1 month') 
-    and BuildingName = 'Chemical laboratory' and hallName = 'Lecture Hall'
+    and BuildingName = 'Chemical laboratory' and hallName = 'Lecture Hall';
     
 -- All coming events for a student
 -- Lectures
