@@ -355,6 +355,7 @@ INSERT INTO CourseInstance (courseStartDate, courseCode) VALUES
     ('2022-09-01', 'PHYS-101'),
     ('2023-01-09', 'CHEM-201'),
     ('2023-01-09', 'LC-1101'),
+    ('2023-09-01', 'LC-1101'),
     ('2023-09-01', 'CS-101'),
     ('2023-09-01', 'MS-201');
     
