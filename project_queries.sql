@@ -112,7 +112,7 @@ CREATE TABLE Course (
 
 CREATE TABLE CourseInstance (
     courseStartDate DATE,
-    courseCode      VARCHAR (20),
+    courseCode      VARCHAR (10),
     PRIMARY KEY (
         courseStartDate,
         courseCode
@@ -125,7 +125,7 @@ CREATE TABLE CourseInstance (
 
 CREATE TABLE Lecture (
     eventID         INTEGER,
-    courseCode      VARCHAR (20),
+    courseCode      VARCHAR (10),
     courseStartDate DATE,
     PRIMARY KEY (
         eventID
@@ -147,7 +147,7 @@ CREATE TABLE Lecture (
 CREATE TABLE ExerciseSession (
     eventID         INTEGER,
     groupName       TEXT,
-    courseCode      VARCHAR (20),
+    courseCode      VARCHAR (10),
     courseStartDate DATE,
     PRIMARY KEY (
         eventID
@@ -168,7 +168,7 @@ CREATE TABLE ExerciseSession (
 
 
 CREATE TABLE ExerciseGroup (
-    courseCode      VARCHAR (20),
+    courseCode      VARCHAR (10),
     courseStartDate DATE,
     groupName       TEXT,
     maxAttendees    INTEGER,
@@ -187,7 +187,7 @@ CREATE TABLE ExerciseGroup (
 
 CREATE TABLE Exam (
     eventID    INTEGER,
-    courseCode VARCHAR (20),
+    courseCode VARCHAR (10),
     PRIMARY KEY (
         eventID
     ),
