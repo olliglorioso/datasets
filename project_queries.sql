@@ -450,8 +450,7 @@ INSERT INTO Lecture (eventID, courseCode, courseStartDate) VALUES
 --DROP VIEW StudentCredits;
 -- ECTs by student
 CREATE VIEW StudentCredits AS
-SELECT Student.studentID, SUM(credits)
+SELECT Student.studentID as StudentID, SUM(credits) as creditSum
       FROM ((GradeOf LEFT OUTER JOIN Student ON Student.studentID = GradeOf.studentID) 
           JOIN Exam on Exam.EventID = GradeOf.eventID and GradeOf.grade <> 0) LEFT OUTER JOIN Course ON Course.code = Exam.courseCode
       GROUP BY Student.studentID;
-
