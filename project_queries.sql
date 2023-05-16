@@ -392,7 +392,9 @@ INSERT INTO ExamRegistration (studentID, eventID, registrationDate, languageOfCh
 VALUES
     ('10004', 8, '2023-05-01', 'ENG'),
     ('10004', 9, '2023-05-02', 'FRA'),
-    ('10005', 10, '2023-05-03', 'ITA');
+    ('10005', 10, '2023-05-03', 'FIN'),
+    ('10002', 10, '2023-05-03', 'FIN'),
+    ('10001', 10, '2023-05-03', 'SWE');
 
 INSERT INTO ExercisePoints (studentID, courseCode, courseStartDate, points)
 VALUES 
@@ -445,10 +447,10 @@ INSERT INTO Lecture (eventID, courseCode, courseStartDate) VALUES
 
 -- Views
 --DROP VIEW StudentCredits;
-CREATE VIEW StudentCredits(studentID, totalCredits)
-AS
-    SELECT Student.studentID, SUM(credits)
-      FROM ((GradeOf LEFT JOIN Student ON Student.studentID = GradeOf.studentID) NATURAL JOIN Exam) LEFT JOIN Course ON Course.code = Exam.courseCode
-      GROUP BY Student.studentID;
+-- ECTs by student
+SELECT Student.studentID, SUM(credits)
+      FROM ((GradeOf LEFT OUTER JOIN Student ON Student.studentID = GradeOf.studentID) 
+          JOIN Exam on Exam.EventID = GradeOf.eventID) LEFT OUTER JOIN Course ON Course.code = Exam.courseCode
+      GROUP BY Student.studentID
 
 
