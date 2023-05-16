@@ -94,7 +94,7 @@ CREATE TABLE Reservation (
 
 CREATE TABLE Event (
     eventID    INTEGER,
-    eventStart TEXT,
+    eventStart TEXT CHECK (eventStart < eventEnd),
     eventEnd   TEXT,
     PRIMARY KEY (
         eventID
