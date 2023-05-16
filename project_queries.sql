@@ -218,7 +218,7 @@ CREATE TABLE Student (
 CREATE TABLE GradeOf (
     studentID VARCHAR (10),
     eventID   INTEGER,
-    grade     INTEGER,
+    grade     INTEGER CHECK (grade >=0 AND grade <= 5),
     PRIMARY KEY (
         studentID,
         eventID
