@@ -407,6 +407,7 @@ VALUES
 INSERT INTO GradeOf (studentID, eventID, grade) VALUES 
     ('10001', 8, 5),
     ('10002', 9, 4),
+    ('10002', 8, 0),
     ('10003', 9, 5),
     ('10001', 10, 4);
 
@@ -442,15 +443,12 @@ INSERT INTO Lecture (eventID, courseCode, courseStartDate) VALUES
     (2, 'MS-201', '2023-09-01'),
     (3, 'PHYS-101', '2022-09-01');
     
-
-
-
 -- Views
 --DROP VIEW StudentCredits;
 -- ECTs by student
+CREATE VIEW StudentCredits AS
 SELECT Student.studentID, SUM(credits)
       FROM ((GradeOf LEFT OUTER JOIN Student ON Student.studentID = GradeOf.studentID) 
-          JOIN Exam on Exam.EventID = GradeOf.eventID) LEFT OUTER JOIN Course ON Course.code = Exam.courseCode
-      GROUP BY Student.studentID
-
+          JOIN Exam on Exam.EventID = GradeOf.eventID and GradeOf.grade <> 0) LEFT OUTER JOIN Course ON Course.code = Exam.courseCode
+      GROUP BY Student.studentID;
 
