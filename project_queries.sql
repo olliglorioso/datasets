@@ -123,6 +123,26 @@ CREATE TABLE CourseInstance (
     REFERENCES Course (code) 
 );
 
+
+
+CREATE TABLE ExerciseGroup (
+    courseCode      VARCHAR (10),
+    courseStartDate DATE,
+    groupName       TEXT,
+    maxAttendees    INTEGER,
+    PRIMARY KEY (
+        courseCode,
+        courseStartDate,
+        groupName
+    ),
+    FOREIGN KEY (
+        courseCode,
+        courseStartDate
+    )
+    REFERENCES CourseInstance (courseCode,
+    courseStartDate) 
+);
+
 CREATE TABLE Lecture (
     eventID         INTEGER,
     courseCode      VARCHAR (10),
@@ -166,24 +186,6 @@ CREATE TABLE ExerciseSession (
     courseStartDate) 
 );
 
-
-CREATE TABLE ExerciseGroup (
-    courseCode      VARCHAR (10),
-    courseStartDate DATE,
-    groupName       TEXT,
-    maxAttendees    INTEGER,
-    PRIMARY KEY (
-        courseCode,
-        courseStartDate,
-        groupName
-    ),
-    FOREIGN KEY (
-        courseCode,
-        courseStartDate
-    )
-    REFERENCES CourseInstance (courseCode,
-    courseStartDate) 
-);
 
 CREATE TABLE Exam (
     eventID    INTEGER,
