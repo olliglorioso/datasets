@@ -1,6 +1,13 @@
 -- 1. Add a new student
 Insert Into Student 
-Values ('30000001', "Saul Student", '2002-02-02', 'Computer science', '2022-06-01','2027-06-01')
+Values ('30000001', "Saul Student", '2002-02-02', 'Computer science', '2022-06-01','2027-06-01');
+
+-- Student 10002 checks their completed courses
+SELECT courseCode, courseName, grade
+FROM ((GradeOf LEFT OUTER JOIN Student ON Student.studentID = GradeOf.studentID) 
+    JOIN Exam on Exam.EventID = GradeOf.eventID and GradeOf.grade <> 0 AND GradeOf.StudentID = '10002') 
+        LEFT OUTER JOIN Course ON Course.code = Exam.courseCode;
+
 
 -- 2. Check if student in course
 select Count(StudentID) 
@@ -36,7 +43,12 @@ where studentID in (
     from ExercisePoints
 );
 
-
+-- In a given hall, all reservations in the coming month:
+Select *
+From Reservation
+where date(Reservation.startDate) <= date(date(), '+1 month') 
+    and BuildingName = 'Chemical laboratory' and hallName = 'Lecture Hall'
+    
 -- All coming events for a student
 -- Lectures
 Select Event.*
@@ -45,9 +57,7 @@ From EnrolledIn, Lecture
     Where studentID = '10002' and EnrolledIn.courseCode = Lecture.courseCode 
         and EnrolledIn.courseStartDate = Lecture.courseStartDate) as VE        
 Where VE.eventID = Event.eventID and Event.eventStart >= date()       
-
 Union
-
 -- Exercise sessions
 Select Event.*
 from Event,(
@@ -56,11 +66,20 @@ from Event,(
     Where studentID = '10002' and EnrolledIn.courseCode = ExerciseSession.courseCode 
         and EnrolledIn.courseStartDate = ExerciseSession.courseStartDate) as VE 
 Where VE.eventID = Event.eventID and Event.eventStart >= date()
-
 Union
-
 --Exams
 Select Event.*
 From ExamRegistration, Event
 Where ExamRegistration.studentID = '10002' And ExamRegistration.eventID = Event.eventID 
     And Event.eventStart >= date();
+    
+    
+-- Calculates the ratio of swedish-to-finnish exam registrations
+Select Count(*)*1.0/
+    (Select Count(*)    --FIN
+        from ExamRegistration
+        Group by LanguageOfChoice 
+        Having LanguageOfChoice = 'FIN') as ratio
+from ExamRegistration
+Group by LanguageOfChoice 
+Having LanguageOfChoice = 'SWE';    --SWE
