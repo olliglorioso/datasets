@@ -48,6 +48,10 @@ where studentID in (
     from ExercisePoints
 );
 
+-- Average ECTS per year by student
+Select Student.StudentID, SC.CreditSum/(((JulianDay('now')) - JulianDay(Student.enrollDate))/365.25)
+from Student left outer join StudentCredits as SC on Student.StudentID = SC.StudentID
+
 -- Find the halls with 20 computers or over
 Select *
 from Hall, BelongsToHall
