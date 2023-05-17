@@ -438,8 +438,8 @@ INSERT INTO ExerciseSession (eventID, courseStartDate, courseCode, groupName) VA
     (6, '2022-09-01', 'MS-201', 'Group B'),
     (7, '2023-01-09', 'CHEM-201', 'Group D'),
     (5, '2022-09-01', 'CS-101', 'Group A'),
-    (11, '2023-09-01','LC-1101', 'Group S'),   -- for removal
-    (12, '2023-09-01', 'LC-1101',  'Group S');
+    (13, '2023-09-01','LC-1101', 'Group S'),   -- for removal
+    (14, '2023-09-01', 'LC-1101',  'Group S');
     
 INSERT INTO Reservation (reservationID, eventID, startDate, endDate, reservationMadeDate, buildingName, hallName, madeBy) VALUES
     (1, 1, '2023-06-01 09:00:00', '2023-06-01 11:00:00', '2023-05-30 14:00:00', 'Computer Science building', 'Auditorium', 1),
