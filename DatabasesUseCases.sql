@@ -1,7 +1,3 @@
--- 1. Add a new student
-Insert Into Student 
-Values ('30000001', "Saul Student", '2002-02-02', 'Computer science', '2022-06-01','2027-06-01');
-
 -- Student 10002 checks their completed courses
 SELECT courseCode, courseName, grade
 FROM ((GradeOf LEFT OUTER JOIN Student ON Student.studentID = GradeOf.studentID) 
