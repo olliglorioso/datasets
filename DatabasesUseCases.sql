@@ -1,7 +1,7 @@
 -- 1. Check how many students partook in a course instance
 select amount
 from CourseRegistrationCount
-where CourseCode = "MS-201" and CourseStartDate = '2022-09-01'
+where CourseCode = "MS-201" and CourseStartDate = '2022-09-01';
 
 -- 2. Student 10002 checks their completed courses
 SELECT courseCode, courseName, grade
@@ -32,17 +32,17 @@ Insert Into EnrolledIn Values
 --- 6. Get all courses of a program
 SELECT *
 FROM Course
-Where code like 'PHYS%'
+Where code like 'PHYS%';
 
 -- 7. Average ECTS per year by student
 Select Student.StudentID, SC.CreditSum/(((JulianDay('now')) - JulianDay(Student.enrollDate))/365.25)
-from Student left outer join StudentCredits as SC on Student.StudentID = SC.StudentID
+from Student left outer join StudentCredits as SC on Student.StudentID = SC.StudentID;
 
 -- 8. Find the halls with 20 computers or over
 Select *
 from Hall, BelongsToHall
 where BelongsToHall.hallName = Hall.hallName and BelongsToHall.equipmentName = 'Computer' 
-    and BelongsToHall.amount >= 20  
+    and BelongsToHall.amount >= 20  ;
 
 -- 9. In a given hall, all reservations in the coming month:
 Select *
@@ -163,9 +163,9 @@ HAVING Sum(Hall.seats) >= 1000;
 SELECT courseCode, hallName, startDate
 FROM (SELECT * FROM (Exam LEFT OUTER JOIN Reservation ON Exam.eventID = Reservation.eventID)) AS ExamsReservations 
     LEFT OUTER JOIN Hall ON ExamsReservations.hallName = Hall.hallName
-WHERE startDate > '2023-06-05' AND Hall.hallName = 'Auditorium'
+WHERE startDate > '2023-06-05' AND Hall.hallName = 'Auditorium'K;
 
 -- 17. Find the first reservation that an employee has made
 SELECT employeeName, MIN(Reservation.reservationMadeDate)
 FROM Employee, Reservation
-WHERE Employee.employeeID = Reservation.madeBy AND Employee.employeeID = 1
+WHERE Employee.employeeID = Reservation.madeBy AND Employee.employeeID = 1;
