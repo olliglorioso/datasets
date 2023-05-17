@@ -90,7 +90,7 @@ WHERE Student.enrollDate > '01-01-2019' AND Student.enrollDate < '31-12-2019'
 GROUP BY Student.degreeProgram
 ORDER BY Student.degreeProgram;
 
--- Where and when a lecture will be organized
+-- Where and when a lecture will be organized (CS-101)
 SELECT Building.street,
        Building.buildingName,
        Hall.hallName,
