@@ -119,3 +119,9 @@ SELECT Building.street,
        LEFT OUTER JOIN
        Building ON CourseHalls.buildingName = Building.buildingName
    WHERE Lecture.courseCode IS NOT NULL AND CourseInstance.courseCode = 'CS-101' AND CourseInstance.courseStartDate = '2023-09-01';
+
+-- Find buildings with more than 1000 seats
+SELECT SUM(Hall.seats), Hall.buildingName
+FROM Building LEFT OUTER JOIN Hall ON Building.buildingName = Hall.buildingName
+GROUP BY Building.buildingName
+HAVING Sum(Hall.seats) >= 1000;
