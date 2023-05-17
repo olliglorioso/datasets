@@ -104,3 +104,4 @@ WHERE Student.enrollDate > '01-01-2019' AND Student.enrollDate < '31-12-2019'
 GROUP BY Student.degreeProgram
 ORDER BY Student.degreeProgram;
 
+-- Where an event will be organized
