@@ -364,9 +364,9 @@ INSERT INTO CourseInstance (courseStartDate, courseCode) VALUES
     ('2022-09-01', 'PHYS-101'),
     ('2023-01-09', 'CHEM-201'),
     ('2023-01-09', 'LC-1101'),
-    ('2023-09-01', 'LC-1101'),
     ('2023-09-01', 'CS-101'),
-    ('2023-09-01', 'MS-201');
+    ('2023-09-01', 'MS-201'),
+    ('2023-09-01', 'LC-1101');     -- FOR REMOVAL
     
 INSERT INTO ExerciseGroup (courseStartDate, courseCode, groupName, maxAttendees) VALUES 
     ('2022-09-01', 'CS-101', 'Group A', 50),
@@ -375,7 +375,8 @@ INSERT INTO ExerciseGroup (courseStartDate, courseCode, groupName, maxAttendees)
     ('2023-01-09', 'CHEM-201', 'Group D', 50),
     ('2023-01-09', 'LC-1101', 'Group E', 50),
     ('2023-09-01', 'CS-101', 'Group F', 50),
-    ('2023-09-01', 'MS-201', 'Group G', 50);
+    ('2023-09-01', 'MS-201', 'Group G', 50)
+    ('2023-09-01', 'MS-201', 'Group S',48); -- for removal
     
 INSERT INTO Hall (hallName, buildingName, seats, maxExaminees) VALUES
     ('Auditorium', 'Computer Science building', 500, 250),
@@ -429,13 +430,16 @@ VALUES
     ('10001', 'Group B', 'MS-201', '2022-09-01'),
     ('10002', 'Group A', 'CS-101', '2022-09-01'),
     ('10002', 'Group C', 'PHYS-101', '2022-09-01'),
-    ('10003', 'Group B', 'MS-201', '2022-09-01');
+    ('10003', 'Group B', 'MS-201', '2022-09-01'),
+    ('10004', 'Group S', 'LC-1101', '2023-09-01');;
     
 
 INSERT INTO ExerciseSession (eventID, courseStartDate, courseCode, groupName) VALUES
     (6, '2022-09-01', 'MS-201', 'Group B'),
     (7, '2023-01-09', 'CHEM-201', 'Group D'),
-    (5, '2022-09-01', 'CS-101', 'Group A');
+    (5, '2022-09-01', 'CS-101', 'Group A'),
+    (11, 'LC-1101', '2023-09-01', 'Group S'),   -- for removal
+    (12, 'LC-1101', '2023-09-01', 'Group S');
     
 INSERT INTO Reservation (reservationID, eventID, startDate, endDate, reservationMadeDate, buildingName, hallName, madeBy) VALUES
     (1, 1, '2023-06-01 09:00:00', '2023-06-01 11:00:00', '2023-05-30 14:00:00', 'Computer Science building', 'Auditorium', 1),
@@ -457,7 +461,9 @@ INSERT INTO Lecture (eventID, courseCode, courseStartDate) VALUES
     (4, 'CHEM-201', '2023-01-09'),
     (1, 'CS-101', '2023-09-01'),
     (2, 'MS-201', '2023-09-01'),
-    (3, 'PHYS-101', '2022-09-01');
+    (3, 'PHYS-101', '2022-09-01'),
+    (11, 'LC-1101', '2023-09-01'),  -- For removal
+    (12, 'LC-1101', '2023-09-01');
     
 -- Views
 --DROP VIEW StudentCredits;
