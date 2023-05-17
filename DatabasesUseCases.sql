@@ -98,3 +98,13 @@ Select Count(*)*1.0/
 from ExamRegistration
 Group by LanguageOfChoice 
 Having LanguageOfChoice = 'SWE';    --SWE
+
+
+--- 11
+      
+SELECT Student.degreeProgram, AVG(GradeOf.grade) AS Average
+FROM Student LEFT OUTER JOIN GradeOf ON Student.studentID = GradeOf.studentID
+WHERE Student.enrollDate > '01-01-2019' AND Student.enrollDate < '31-12-2019'
+GROUP BY Student.degreeProgram
+ORDER BY Student.degreeProgram;
+
