@@ -308,7 +308,6 @@ CREATE INDEX ExamIndex On Exam(courseCode);
 CREATE INDEX StudentNameIndex ON Student(studentName);
 CREATE INDEX ExamsGradeIndex ON Exam(eventID);
 
--- !!!!!!! TODO: This is here twice??
 --CREATE INDEX CourseInfoIndex ON ExerciseSession(courseCode, courseStartDate);
 
 --Insert example data
@@ -348,7 +347,7 @@ INSERT INTO Event (eventID, eventStart, eventEnd) VALUES
     (8, '2023-06-04 15:00:00', '2023-06-04 17:00:00'),
     (9, '2023-06-05 10:00:00', '2023-06-05 12:00:00'),
     (10, '2023-06-05 14:00:00', '2023-06-05 16:00:00'),
-    (11, '2023-10-02 14:00:00', '2023-10-02 16:00:00'), -- TO BE REMOVED FROM HERE
+    (11, '2023-10-02 14:00:00', '2023-10-02 16:00:00'), -- FOR REMOVAL
     (12, '2023-10-03 14:00:00', '2023-10-03 16:00:00'),
     (13, '2023-10-04 14:00:00', '2023-10-04 16:00:00'),
     (14, '2023-06-05 14:00:00', '2023-10-05 16:00:00');
@@ -452,7 +451,7 @@ INSERT INTO Reservation (reservationID, eventID, startDate, endDate, reservation
     (8, 8, '2023-06-04 15:00:00', '2023-06-04 17:00:00', '2023-06-02 14:00:00', 'Computer Science building', 'Grand Hall', 2),
     (9, 9, '2023-06-05 10:00:00', '2023-06-05 12:00:00', '2023-06-03 11:00:00', 'Chemical laboratory', 'Lecture Hall', 2),
     (10, 10, '2023-06-05 14:00:00', '2023-06-05 16:00:00', '2023-06-03 15:00:00', 'Computer Science building', 'Auditorium', 3),
-    (11, 11, '2023-10-02 14:00:00', '2023-10-02 16:00:00','2023-02-05 16:00:00', 'IEM building', 'Guild room', 4), -- TO BE REMOVED FROM HERE
+    (11, 11, '2023-10-02 14:00:00', '2023-10-02 16:00:00','2023-02-05 16:00:00', 'IEM building', 'Guild room', 4), -- FOR REMOVAL
     (12, 12, '2023-10-03 14:00:00', '2023-10-03 16:00:00','2023-02-05 16:00:00', 'IEM building', 'Guild room', 4),
     (13, 13, '2023-10-04 14:00:00', '2023-10-04 16:00:00','2023-02-05 16:00:00', 'IEM building', 'Guild room', 4),
     (14, 14, '2023-06-05 14:00:00', '2023-10-05 16:00:00','2023-02-05 16:00:00', 'IEM building', 'Guild room', 4);
