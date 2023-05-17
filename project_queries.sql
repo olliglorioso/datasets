@@ -114,8 +114,8 @@ CREATE TABLE CourseInstance (
     courseStartDate DATE NOT NULL,
     courseCode      VARCHAR (10) NOT NULL,
     PRIMARY KEY (
-        courseStartDate,
-        courseCode
+        courseCode,
+        courseStartDate
     ),
     FOREIGN KEY (
         courseCode
