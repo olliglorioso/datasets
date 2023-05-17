@@ -77,6 +77,52 @@ Where ExamRegistration.studentID = '10002' And ExamRegistration.eventID = Event.
     And Event.eventStart >= date();
     
     
+    
+--    
+-- Canceling a course:
+begin TRANSACTION;
+
+-- Lectures
+CREATE TEMPORARY TABLE eventIDs AS
+    Select Event.EventID
+    from Event, Lecture
+    where Event.eventID = Lecture.eventID and Lecture.courseCode = 'LC-1101' 
+        AND Lecture.courseStartDate = '2023-09-01'
+    Union
+    Select Event.EventID
+    from Event, ExerciseSession
+    where Event.eventID = ExerciseSession.eventID and ExerciseSession.courseCode = 'LC-1101' 
+        AND ExerciseSession.courseStartDate = '2023-09-01';
+
+Delete from Reservation
+where EventID in EventIDs;
+
+Delete from Lecture
+where EventID in EventIDs;
+
+Delete from ExerciseSession
+where EventID in EventIDs;
+
+Delete from Event
+where EventID in EventIDs;
+
+Delete from ExerciseGroup
+where CourseCode = 'LC-1101' and CourseStartDate = '2023-09-01';
+
+Delete From EnrolledIn
+where CourseCode = 'LC-1101' and CourseStartDate = '2023-09-01';
+
+Delete from CourseInstance
+where CourseCode = 'LC-1101' and CourseStartDate = '2023-09-01';
+
+DROP TABLE IF EXISTS eventIDs
+
+commit;
+--  
+  
+  
+  
+  
 -- Calculates the ratio of swedish-to-finnish exam registrations
 Select Count(*)*1.0/
     (Select Count(*)    --FIN
