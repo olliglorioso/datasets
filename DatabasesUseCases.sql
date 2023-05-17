@@ -77,10 +77,9 @@ Where ExamRegistration.studentID = '10002' And ExamRegistration.eventID = Event.
     And Event.eventStart >= date();
     
     
-    
 --    
 -- Canceling a course:
-begin TRANSACTION;
+BEGIN TRANSACTION;
 
 CREATE TEMPORARY TABLE eventIDs AS
     Select Event.EventID
@@ -114,11 +113,9 @@ where CourseCode = 'LC-1101' and CourseStartDate = '2023-09-01';
 Delete from CourseInstance
 where CourseCode = 'LC-1101' and CourseStartDate = '2023-09-01';
 
-DROP TABLE IF EXISTS eventIDs
-
-commit;
+DROP TABLE IF EXISTS eventIDs;
+COMMIT;
 --  
-  
   
   
   
