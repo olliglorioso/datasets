@@ -114,4 +114,4 @@ SELECT Building.street,
        ) as CourseHalls
        LEFT OUTER JOIN
        Building ON CourseHalls.buildingName = Building.buildingName
-   WHERE Lecture.courseCode IS NOT NULL AND Lecture.courseCode = 'CS-101';
+   WHERE Lecture.courseCode IS NOT NULL AND CourseInstance.courseCode = 'CS-101' AND CourseInstance.courseStartDate = '2023-09-01';
