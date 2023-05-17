@@ -283,8 +283,7 @@ CREATE TABLE EnrolledIn (
         studentID,
         exerciseGroupName,
         courseCode,
-        courseStartDateINSERT INTO ExerciseSession (eventID, courseStartDate, courseCode, groupName) VALUES
-    (11, 'LC-1101', '2023-09-01', 'Group S');   -- for removal
+        courseStartDate
     ),
     FOREIGN KEY (
         studentID
