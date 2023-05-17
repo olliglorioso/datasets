@@ -22,10 +22,8 @@ where Course.code = CourseInstance.courseCode and courseStartDate > date();
 
 -- 5. Get an exerciseGroup Register into it
 select groupName
-from ExerciseGroup, CourseInstance
-where ExerciseGroup.courseCode = CourseInstance.courseCode and 
-    ExerciseGroup.courseStartDate = CourseInstance.courseStartDate and 
-        CourseInstance.courseCode = 'MS-201' and CourseInstance.courseStartDate = '2023-09-01';
+from ExerciseGroup
+where courseCode = 'MS-201' and courseStartDate = '2023-09-01';
         
 -- 5 continues... Now register for the group
 Insert Into EnrolledIn Values
