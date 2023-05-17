@@ -31,6 +31,11 @@ where ExerciseGroup.courseCode = CourseInstance.courseCode and
 Insert Into EnrolledIn Values
 ('10001', 'Group G', 'MS-201', '2023-09-01');
 
+--- Get all courses of a program
+SELECT *
+FROM Course
+Where code like 'PHYS%'
+
 -- Average ECTS per year by student
 Select Student.StudentID, SC.CreditSum/(((JulianDay('now')) - JulianDay(Student.enrollDate))/365.25)
 from Student left outer join StudentCredits as SC on Student.StudentID = SC.StudentID
