@@ -375,7 +375,7 @@ INSERT INTO ExerciseGroup (courseStartDate, courseCode, groupName, maxAttendees)
     ('2023-01-09', 'CHEM-201', 'Group D', 50),
     ('2023-01-09', 'LC-1101', 'Group E', 50),
     ('2023-09-01', 'CS-101', 'Group F', 50),
-    ('2023-09-01', 'MS-201', 'Group G', 50)
+    ('2023-09-01', 'MS-201', 'Group G', 50),
     ('2023-09-01', 'MS-201', 'Group S',48); -- for removal
     
 INSERT INTO Hall (hallName, buildingName, seats, maxExaminees) VALUES
