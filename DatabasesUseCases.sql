@@ -106,10 +106,10 @@ where EventID in EventIDs;
 Delete from Event
 where EventID in EventIDs;
 
-Delete from ExerciseGroup
+Delete From EnrolledIn
 where CourseCode = 'LC-1101' and CourseStartDate = '2023-09-01';
 
-Delete From EnrolledIn
+Delete from ExerciseGroup
 where CourseCode = 'LC-1101' and CourseStartDate = '2023-09-01';
 
 Delete from CourseInstance
