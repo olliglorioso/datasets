@@ -11,9 +11,9 @@ FROM (GradeOf JOIN Exam on Exam.EventID = GradeOf.eventID and GradeOf.grade <> 0
 
 -- 3. Check if student is enrolled in a course instance
 select Count(StudentID) 
-from ExerciseGroup, EnrolledIn
-where ExerciseGroup.courseCode = 'MS-201' and 
-    ExerciseGroup.courseStartDate = '2022-09-01' and StudentID = '10003' and groupName = exerciseGroupName;
+from EnrolledIn
+where courseCode = 'MS-201' and courseStartDate = '2022-09-01' and StudentID = '10003';
+
 
 -- 4. Check courses that are arranged in future
 select *
