@@ -322,7 +322,8 @@ INSERT INTO Student (studentID, studentName, birthDate, degreeProgram, enrollDat
 INSERT INTO Employee VALUES 
     (1, 'Cleaner', 'Sirkka Siivooja', 'Esimerkkikatu 3, 02200 Espoo', '+358111111111', '2022-01-01', '2024-01-01'),
     (2, 'Professor', 'Petri Professori', 'Esimkuja 69, 05500 Helsinki', '+35822222222', '2021-01-01', '2025-01-01'),
-    (3, 'Principal', 'Reijo Rehtori', 'Jokukatu 42, 04200 Kirkkonummi', '+358123456789', '2020-05-01', '2025-10-19');
+    (3, 'Principal', 'Reijo Rehtori', 'Jokukatu 42, 04200 Kirkkonummi', '+358123456789', '2020-05-01', '2025-10-19'),
+    (4, 'Professor', 'Albert Aleatory', 'Hallvägen 1, 00100 Valhalla', '+358123450000', '1990-05-01', '2026-10-19');
     
 INSERT INTO Course (code, courseName, credits) VALUES 
     ('CS-101', 'Introduction to Computer Science', 4),
@@ -346,7 +347,11 @@ INSERT INTO Event (eventID, eventStart, eventEnd) VALUES
     (7, '2023-06-04 11:00:00', '2023-06-04 13:00:00'),
     (8, '2023-06-04 15:00:00', '2023-06-04 17:00:00'),
     (9, '2023-06-05 10:00:00', '2023-06-05 12:00:00'),
-    (10, '2023-06-05 14:00:00', '2023-06-05 16:00:00');
+    (10, '2023-06-05 14:00:00', '2023-06-05 16:00:00'),
+    (11, '2023-10-02 14:00:00', '2023-10-02 16:00:00'), -- TO BE REMOVED FROM HERE
+    (12, '2023-10-03 14:00:00', '2023-10-03 16:00:00'),
+    (13, '2023-10-04 14:00:00', '2023-10-04 16:00:00'),
+    (14, '2023-06-05 14:00:00', '2023-10-05 16:00:00');
 
 INSERT INTO Equipment (equipmentName) VALUES
     ('Microscope'),
@@ -442,7 +447,11 @@ INSERT INTO Reservation (reservationID, eventID, startDate, endDate, reservation
     (7, 7, '2023-06-04 11:00:00', '2023-06-04 13:00:00', '2023-06-02 09:00:00', 'IEM building', 'Guild room', 2),
     (8, 8, '2023-06-04 15:00:00', '2023-06-04 17:00:00', '2023-06-02 14:00:00', 'Computer Science building', 'Grand Hall', 2),
     (9, 9, '2023-06-05 10:00:00', '2023-06-05 12:00:00', '2023-06-03 11:00:00', 'Chemical laboratory', 'Lecture Hall', 2),
-    (10, 10, '2023-06-05 14:00:00', '2023-06-05 16:00:00', '2023-06-03 15:00:00', 'Computer Science building', 'Auditorium', 3);
+    (10, 10, '2023-06-05 14:00:00', '2023-06-05 16:00:00', '2023-06-03 15:00:00', 'Computer Science building', 'Auditorium', 3),
+    (11, 11, '2023-10-02 14:00:00', '2023-10-02 16:00:00','2023-02-05 16:00:00', 'IEM building', 'Guild room', 4), -- TO BE REMOVED FROM HERE
+    (12, 12, '2023-10-03 14:00:00', '2023-10-03 16:00:00','2023-02-05 16:00:00', 'IEM building', 'Guild room', 4),
+    (13, 13, '2023-10-04 14:00:00', '2023-10-04 16:00:00','2023-02-05 16:00:00', 'IEM building', 'Guild room', 4),
+    (14, 14, '2023-06-05 14:00:00', '2023-10-05 16:00:00','2023-02-05 16:00:00', 'IEM building', 'Guild room', 4);
     
 INSERT INTO Lecture (eventID, courseCode, courseStartDate) VALUES
     (4, 'CHEM-201', '2023-01-09'),
