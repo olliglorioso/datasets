@@ -304,7 +304,6 @@ CREATE INDEX EmployeeNameIndex ON Employee(employeeName);
 CREATE INDEX SeatsIndex on Hall(seats);
 CREATE INDEX ReservationBuildingIndex ON Reservation(buildingName, hallName);
 CREATE INDEX LectureInfoIndex ON Lecture(courseCode, courseStartDate);
-CREATE INDEX ExerciseSessionInfoIndex ON ExerciseSession(courseCode, courseStartDate)
 CREATE INDEX ExamIndex On Exam(courseCode);
 
 -- !!!!!!! TODO: This is here twice??
