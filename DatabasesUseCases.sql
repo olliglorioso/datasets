@@ -160,7 +160,7 @@ GROUP BY Building.buildingName
 HAVING Sum(Hall.seats) >= 1000;
 
 -- 16. Find all exams that are scheduled to take place in a specific hall
-SELECT courseCode, hallName, startDate
+SELECT courseCode, Hall.hallName, startDate
 FROM (SELECT * FROM (Exam LEFT OUTER JOIN Reservation ON Exam.eventID = Reservation.eventID)) AS ExamsReservations 
     LEFT OUTER JOIN Hall ON ExamsReservations.hallName = Hall.hallName
 WHERE startDate > '2023-06-05' AND Hall.hallName = 'Auditorium';
