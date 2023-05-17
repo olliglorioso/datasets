@@ -95,21 +95,18 @@ SELECT Building.street,
        Building.buildingName,
        Hall.hallName,
        Reservation.startDate,
-       Reservation.endDate,
-       Lecture.courseCode
+       Reservation.endDate
   FROM (
            (
                (
-                   (
+                   
                        CourseInstance
                        LEFT OUTER JOIN
                        Lecture ON CourseInstance.courseStartDate = Lecture.courseStartDate AND 
                                   CourseInstance.courseCode = Lecture.courseCode
-                   ) AS CourseLectures LEFT OUTER JOIN
-                   Event ON CourseLectures.eventID = Event.eventID
-               ) AS CourseEvents
+               )AS CourseLectures
                LEFT OUTER JOIN
-               Reservation ON Reservation.eventID = CourseEvents.eventID
+               Reservation ON Reservation.eventID = CourseLectures.eventID
            ) as CourseReservations
            LEFT OUTER JOIN
            Hall ON Hall.hallName = CourseReservations.hallName AND 
@@ -117,4 +114,4 @@ SELECT Building.street,
        ) as CourseHalls
        LEFT OUTER JOIN
        Building ON CourseHalls.buildingName = Building.buildingName
-   WHERE Lecture.courseCode IS NOT NULL;
+   WHERE Lecture.courseCode IS NOT NULL AND Lecture.courseCode = 'CS-101';
