@@ -48,8 +48,8 @@ CREATE TABLE BelongsToHall (
     amount        INTEGER,
     PRIMARY KEY (
         equipmentName,
-        hallName,
-        buildingName
+        buildingName,
+        hallName
     ),
     FOREIGN KEY (
         equipmentName
@@ -59,8 +59,8 @@ CREATE TABLE BelongsToHall (
         hallName,
         buildingName
     )
-    REFERENCES Hall (hallName,
-    buildingName) 
+    REFERENCES Hall (buildingName,
+    hallName) 
 );
 
 CREATE TABLE Reservation (
@@ -301,7 +301,7 @@ CREATE TABLE EnrolledIn (
 
 -- Indexes 
 CREATE INDEX SeatsIndex on Hall(seats);
-CREATE INDEX HallBuildingNameIndex ON Reservation(hallName, buildingName);
+CREATE INDEX HallBuildingNameIndex ON Reservation(buildingName, hallName);
 CREATE INDEX CourseInfoIndex ON Lecture(courseCode, courseStartDate);
 
 -- !!!!!!! TODO: This is here twice??
