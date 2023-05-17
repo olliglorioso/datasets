@@ -140,25 +140,20 @@ SELECT Building.street,
        Hall.hallName,
        Reservation.startDate,
        Reservation.endDate
-  FROM (
-           (
-               (
-                   
-                       CourseInstance
-                       LEFT OUTER JOIN
-                       Lecture ON CourseInstance.courseStartDate = Lecture.courseStartDate AND 
-                                  CourseInstance.courseCode = Lecture.courseCode
-               )AS CourseLectures
-               LEFT OUTER JOIN
-               Reservation ON Reservation.eventID = CourseLectures.eventID
-           ) as CourseReservations
-           LEFT OUTER JOIN
-           Hall ON Hall.hallName = CourseReservations.hallName AND 
-                   Hall.buildingName = CourseReservations.buildingName
-       ) as CourseHalls
+  FROM CourseInstance
        LEFT OUTER JOIN
-       Building ON CourseHalls.buildingName = Building.buildingName
-   WHERE Lecture.courseCode IS NOT NULL AND CourseInstance.courseCode = 'CS-101' AND CourseInstance.courseStartDate = '2023-09-01';
+       Lecture ON CourseInstance.courseStartDate = Lecture.courseStartDate AND 
+                  CourseInstance.courseCode = Lecture.courseCode
+       LEFT OUTER JOIN
+       Reservation ON Lecture.eventID = Reservation.eventID
+       LEFT OUTER JOIN
+       Hall ON Hall.hallName = Reservation.hallName AND 
+               Hall.buildingName = Reservation.buildingName
+       LEFT OUTER JOIN
+       Building ON Hall.buildingName = Building.buildingName
+ WHERE Lecture.courseCode IS NOT NULL AND 
+       CourseInstance.courseCode = 'CS-101' AND 
+       CourseInstance.courseStartDate = '2023-09-01';
 
 -- 15. Find buildings with more than 1000 seats
 SELECT SUM(Hall.seats), Hall.buildingName
