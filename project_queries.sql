@@ -4,7 +4,7 @@ CREATE TABLE Employee (
     employeeName      TEXT,
     address           TEXT,
     phone             VARCHAR (15),
-    startOfEmployment DATE CHECK (startOfEmplyment < endOfEmployment),
+    startOfEmployment DATE CHECK (startOfEmployment < endOfEmployment),
     endOfEmployment   DATE,
     PRIMARY KEY (
         employeeID
@@ -66,7 +66,7 @@ CREATE TABLE BelongsToHall (
 CREATE TABLE Reservation (
     reservationID       INTEGER,
     eventID             INTEGER,
-    startDate           TEXT,
+    startDate           TEXT CHECK (startDate < endDate),
     endDate             TEXT,
     reservationMadeDate TEXT,
     buildingName        TEXT,
