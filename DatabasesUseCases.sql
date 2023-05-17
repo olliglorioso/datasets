@@ -4,10 +4,9 @@ FROM ((GradeOf LEFT OUTER JOIN Student ON Student.studentID = GradeOf.studentID)
     JOIN Exam on Exam.EventID = GradeOf.eventID and GradeOf.grade <> 0 AND GradeOf.StudentID = '10002') 
         LEFT OUTER JOIN Course ON Course.code = Exam.courseCode;
 
--- TODO: Check if student present
 -- Check how many students partook in a course instance
-select count(StudentID)
-from EnrolledIn
+select amount
+from CourseRegistrationCount
 where CourseCode = "MS-201" and CourseStartDate = '2022-09-01'
 
 -- 2. Check if student is enrolled in a course instance
