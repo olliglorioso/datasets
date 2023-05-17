@@ -82,7 +82,6 @@ Where ExamRegistration.studentID = '10002' And ExamRegistration.eventID = Event.
 -- Canceling a course:
 begin TRANSACTION;
 
--- Lectures
 CREATE TEMPORARY TABLE eventIDs AS
     Select Event.EventID
     from Event, Lecture
