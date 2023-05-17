@@ -1,5 +1,5 @@
 CREATE TABLE Employee (
-    employeeID        INTEGER,
+    employeeID        INTEGER NOT NULL,
     jobTitle          TEXT,
     employeeName      TEXT,
     address           TEXT,
@@ -12,16 +12,16 @@ CREATE TABLE Employee (
 );
 
 CREATE TABLE Building (
-    buildingName TEXT PRIMARY KEY,
+    buildingName TEXT PRIMARY KEY NOT NULL,
     street       TEXT
 );
 
 
 CREATE TABLE Hall (
-    hallName     TEXT,
-    buildingName TEXT,
-    seats        INTEGER,
-    maxExaminees INTEGER,
+    hallName     TEXT NOT NULL,
+    buildingName TEXT NOT NULL,
+    seats        INTEGER CHECK (seats >= 0),
+    maxExaminees INTEGER CHECK (seats >= 0),
     PRIMARY KEY (
         hallName,
         buildingName
@@ -35,16 +35,16 @@ CREATE TABLE Hall (
 
 
 CREATE TABLE Equipment (
-    equipmentName TEXT,
+    equipmentName TEXT NOT NULL,
     PRIMARY KEY (
         equipmentName
     )
 );
 
 CREATE TABLE BelongsToHall (
-    equipmentName TEXT,
-    hallName      TEXT,
-    buildingName  TEXT,
+    equipmentName TEXT NOT NULL,
+    hallName      TEXT NOT NULL,
+    buildingName  TEXT NOT NULL,
     amount        INTEGER,
     PRIMARY KEY (
         equipmentName,
@@ -64,14 +64,14 @@ CREATE TABLE BelongsToHall (
 );
 
 CREATE TABLE Reservation (
-    reservationID       INTEGER,
-    eventID             INTEGER,
-    startDate           TEXT CHECK (startDate < endDate),
-    endDate             TEXT,
+    reservationID       INTEGER NOT NULL,
+    eventID             INTEGER NOT NULL,
+    startDate           TEXT CHECK (startDate < endDate) NOT NULL,
+    endDate             TEXT NOT NULL,
     reservationMadeDate TEXT,
-    buildingName        TEXT,
-    hallName            TEXT,
-    madeBy              INTEGER,
+    buildingName        TEXT NOT NULL,
+    hallName            TEXT NOT NULL,
+    madeBy              INTEGER NOT NULL,
     PRIMARY KEY (
         reservationID,
         eventID
@@ -93,17 +93,17 @@ CREATE TABLE Reservation (
 );
 
 CREATE TABLE Event (
-    eventID    INTEGER,
-    eventStart TEXT CHECK (eventStart < eventEnd),
-    eventEnd   TEXT,
+    eventID    INTEGER NOT NULL,
+    eventStart TEXT CHECK (eventStart < eventEnd) NOT NULL,
+    eventEnd   TEXT NOT NULL,
     PRIMARY KEY (
         eventID
     )
 );
 
 CREATE TABLE Course (
-    code       VARCHAR (10),
-    courseName TEXT,
+    code       VARCHAR (10) NOT NULL,
+    courseName TEXT NOT NULL, -- A course has to have a name.
     credits    INTEGER,
     PRIMARY KEY (
         code
@@ -111,8 +111,8 @@ CREATE TABLE Course (
 );
 
 CREATE TABLE CourseInstance (
-    courseStartDate DATE,
-    courseCode      VARCHAR (10),
+    courseStartDate DATE NOT NULL,
+    courseCode      VARCHAR (10) NOT NULL,
     PRIMARY KEY (
         courseStartDate,
         courseCode
@@ -126,9 +126,9 @@ CREATE TABLE CourseInstance (
 
 
 CREATE TABLE ExerciseGroup (
-    courseCode      VARCHAR (10),
-    courseStartDate DATE,
-    groupName       TEXT,
+    courseCode      VARCHAR (10) NOT NULL,
+    courseStartDate DATE NOT NULL,
+    groupName       TEXT NOT NULL,
     maxAttendees    INTEGER,
     PRIMARY KEY (
         courseCode,
@@ -144,9 +144,9 @@ CREATE TABLE ExerciseGroup (
 );
 
 CREATE TABLE Lecture (
-    eventID         INTEGER,
-    courseCode      VARCHAR (10),
-    courseStartDate DATE,
+    eventID         INTEGER NOT NULL,
+    courseCode      VARCHAR (10) NOT NULL,
+    courseStartDate DATE NOT NULL,
     PRIMARY KEY (
         eventID
     ),
@@ -165,10 +165,10 @@ CREATE TABLE Lecture (
 
 
 CREATE TABLE ExerciseSession (
-    eventID         INTEGER,
-    groupName       TEXT,
-    courseCode      VARCHAR (10),
-    courseStartDate DATE,
+    eventID         INTEGER NOT NULL,
+    groupName       TEXT NOT NULL,
+    courseCode      VARCHAR (10) NOT NULL,
+    courseStartDate DATE NOT NULL,
     PRIMARY KEY (
         eventID
     ),
@@ -188,8 +188,8 @@ CREATE TABLE ExerciseSession (
 
 
 CREATE TABLE Exam (
-    eventID    INTEGER,
-    courseCode VARCHAR (10),
+    eventID    INTEGER NOT NULL,
+    courseCode VARCHAR (10) NOT NULL,
     PRIMARY KEY (
         eventID
     ),
@@ -204,7 +204,7 @@ CREATE TABLE Exam (
 );
 
 CREATE TABLE Student (
-    studentID     VARCHAR (10),
+    studentID     VARCHAR (10) NOT NULL,
     studentName   TEXT,
     birthDate     DATE,
     degreeProgram TEXT,
@@ -216,8 +216,8 @@ CREATE TABLE Student (
 );
 
 CREATE TABLE GradeOf (
-    studentID VARCHAR (10),
-    eventID   INTEGER,
+    studentID VARCHAR (10) NOT NULL,
+    eventID   INTEGER NOT NULL,
     grade     INTEGER CHECK (grade >=0 AND grade <= 5),
     PRIMARY KEY (
         studentID,
@@ -234,8 +234,8 @@ CREATE TABLE GradeOf (
 );
 
 CREATE TABLE ExamRegistration (
-    studentID        VARCHAR (10),
-    eventID          INTEGER,
+    studentID        VARCHAR (10) NOT NULL,
+    eventID          INTEGER NOT NULL,
     registrationDate DATE,
     languageOfChoice CHAR (3),
     PRIMARY KEY (
@@ -253,9 +253,9 @@ CREATE TABLE ExamRegistration (
 );
 
 CREATE TABLE ExercisePoints (
-    studentID       VARCHAR (10),
-    courseCode      VARCHAR (20),
-    courseStartDate DATE,
+    studentID       VARCHAR (10) NOT NULL,
+    courseCode      VARCHAR (20) NOT NULL,
+    courseStartDate DATE NOT NULL,
     points          INTEGER,
     PRIMARY KEY (
         studentID,
@@ -275,10 +275,10 @@ CREATE TABLE ExercisePoints (
 );
 
 CREATE TABLE EnrolledIn (
-    studentID         VARCHAR (10),
-    exerciseGroupName TEXT,
-    courseCode        VARCHAR (20),
-    courseStartDate   DATE,
+    studentID         VARCHAR (10) NOT NULL,
+    exerciseGroupName TEXT NOT NULL,
+    courseCode        VARCHAR (20) NOT NULL,
+    courseStartDate   DATE NOT NULL,
     PRIMARY KEY (
         studentID,
         exerciseGroupName,
