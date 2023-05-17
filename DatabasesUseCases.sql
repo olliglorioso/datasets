@@ -9,50 +9,50 @@ FROM ((GradeOf LEFT OUTER JOIN Student ON Student.studentID = GradeOf.studentID)
     JOIN Exam on Exam.EventID = GradeOf.eventID and GradeOf.grade <> 0 AND GradeOf.StudentID = '10002') 
         LEFT OUTER JOIN Course ON Course.code = Exam.courseCode;
 
--- 2. Check if student is enrolled in a course instance
+-- 3. Check if student is enrolled in a course instance
 select Count(StudentID) 
 from ExerciseGroup, EnrolledIn
 where ExerciseGroup.courseCode = 'MS-201' and 
     ExerciseGroup.courseStartDate = '2022-09-01' and StudentID = '10003' and groupName = exerciseGroupName;
 
--- 3. Check courses that are arranged in future
+-- 4. Check courses that are arranged in future
 select *
 from Course, CourseInstance
 where Course.code = CourseInstance.courseCode and courseStartDate > date();
 
--- 4. Get an exerciseGroup Register into it
+-- 5. Get an exerciseGroup Register into it
 select groupName
 from ExerciseGroup, CourseInstance
 where ExerciseGroup.courseCode = CourseInstance.courseCode and 
     ExerciseGroup.courseStartDate = CourseInstance.courseStartDate and 
         CourseInstance.courseCode = 'MS-201' and CourseInstance.courseStartDate = '2023-09-01';
         
--- ... Now register for the group
+-- 5 continues... Now register for the group
 Insert Into EnrolledIn Values
 ('10001', 'Group G', 'MS-201', '2023-09-01');
 
---- Get all courses of a program
+--- 6. Get all courses of a program
 SELECT *
 FROM Course
 Where code like 'PHYS%'
 
--- Average ECTS per year by student
+-- 7. Average ECTS per year by student
 Select Student.StudentID, SC.CreditSum/(((JulianDay('now')) - JulianDay(Student.enrollDate))/365.25)
 from Student left outer join StudentCredits as SC on Student.StudentID = SC.StudentID
 
--- Find the halls with 20 computers or over
+-- 8. Find the halls with 20 computers or over
 Select *
 from Hall, BelongsToHall
 where BelongsToHall.hallName = Hall.hallName and BelongsToHall.equipmentName = 'Computer' 
     and BelongsToHall.amount >= 20  
 
--- In a given hall, all reservations in the coming month:
+-- 9. In a given hall, all reservations in the coming month:
 Select *
 From Reservation
 where date(Reservation.startDate) <= date(date(), '+1 month') 
     and BuildingName = 'Chemical laboratory' and hallName = 'Lecture Hall';
     
--- All coming events for a student
+-- 10. All coming events for a student
 -- Lectures
 Select Event.*
 from Event, (Select *
@@ -78,7 +78,7 @@ Where ExamRegistration.studentID = '10002' And ExamRegistration.eventID = Event.
     
     
 --    
--- Canceling a course:
+-- 11. Canceling a course:
 BEGIN TRANSACTION;
 
 CREATE TEMPORARY TABLE eventIDs AS
@@ -119,7 +119,7 @@ COMMIT;
   
   
   
--- Calculates the ratio of swedish-to-finnish exam registrations
+-- 12. Calculates the ratio of swedish-to-finnish exam registrations
 Select Count(*)*1.0/
     (Select Count(*)    --FIN
         from ExamRegistration
@@ -129,14 +129,14 @@ from ExamRegistration
 Group by LanguageOfChoice 
 Having LanguageOfChoice = 'SWE';    --SWE
 
---- Best students in degree programs
+--- 13. Best students in degree programs
 SELECT Student.degreeProgram, AVG(GradeOf.grade) AS Average
 FROM Student LEFT OUTER JOIN GradeOf ON Student.studentID = GradeOf.studentID
 WHERE Student.enrollDate > '01-01-2019' AND Student.enrollDate < '31-12-2019'
 GROUP BY Student.degreeProgram
 ORDER BY AVG(GradeOf.grade) DESC;
 
--- Where and when all lectures of a course will be organized (CS-101)
+-- 14. Where and when all lectures of a course will be organized (CS-101)
 SELECT Building.street,
        Building.buildingName,
        Hall.hallName,
@@ -162,19 +162,19 @@ SELECT Building.street,
        Building ON CourseHalls.buildingName = Building.buildingName
    WHERE Lecture.courseCode IS NOT NULL AND CourseInstance.courseCode = 'CS-101' AND CourseInstance.courseStartDate = '2023-09-01';
 
--- Find buildings with more than 1000 seats
+-- 15. Find buildings with more than 1000 seats
 SELECT SUM(Hall.seats), Hall.buildingName
 FROM Building LEFT OUTER JOIN Hall ON Building.buildingName = Hall.buildingName
 GROUP BY Building.buildingName
 HAVING Sum(Hall.seats) >= 1000;
 
--- Find all exams that are scheduled to take place in a specific hall
+-- 16. Find all exams that are scheduled to take place in a specific hall
 SELECT courseCode, hallName, startDate
 FROM (SELECT * FROM (Exam LEFT OUTER JOIN Reservation ON Exam.eventID = Reservation.eventID)) AS ExamsReservations 
     LEFT OUTER JOIN Hall ON ExamsReservations.hallName = Hall.hallName
 WHERE startDate > '2023-06-05' AND Hall.hallName = 'Auditorium'
 
--- Find the first reservation that an employee has made
+-- 17. Find the first reservation that an employee has made
 SELECT employeeName, MIN(Reservation.reservationMadeDate)
 FROM Employee, Reservation
 WHERE Employee.employeeID = Reservation.madeBy AND Employee.employeeID = 1
