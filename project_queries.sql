@@ -454,3 +454,11 @@ SELECT Student.studentID as StudentID, SUM(credits) as creditSum
       FROM ((GradeOf LEFT OUTER JOIN Student ON Student.studentID = GradeOf.studentID) 
           JOIN Exam on Exam.EventID = GradeOf.eventID and GradeOf.grade <> 0) LEFT OUTER JOIN Course ON Course.code = Exam.courseCode
       GROUP BY Student.studentID;
+      
+Create view CourseRegistrationCount as
+    select CourseInstance.coursecode, CourseInstance.courseStartDate, Count(studentID)
+    from CourseInstance left outer join (ExerciseGroup left outer join EnrolledIn 
+        on ExerciseGroup.courseCode = EnrolledIn.courseCode and ExerciseGroup.courseStartDate = EnrolledIn.courseStartDate)
+        on CourseInstance.CourseCode = ExerciseGroup.courseCode
+            and CourseInstance.courseStartDate = ExerciseGroup.courseStartDate
+    group by CourseInstance.courseCode, CourseInstance.courseStartDate;
