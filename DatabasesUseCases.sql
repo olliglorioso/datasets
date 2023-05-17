@@ -118,14 +118,12 @@ COMMIT;
   
   
 -- 12. Calculates the ratio of swedish-to-finnish exam registrations
-Select Count(*)*1.0/
-    (Select Count(*)    --FIN
-        from ExamRegistration
-        Group by LanguageOfChoice 
-        Having LanguageOfChoice = 'FIN') as ratio
-from ExamRegistration
-Group by LanguageOfChoice 
-Having LanguageOfChoice = 'SWE';    --SWE
+Select Count(*)*1.0/  
+(Select Count(*) --FIN  
+FROM ExamRegistration  
+WHERE LanguageOfChoice = 'FIN') as ratio 
+from ExamRegistration  
+WHERE LanguageOfChoice = 'SWE'; 
 
 --- 13. Best students in degree programs
 SELECT Student.degreeProgram, AVG(GradeOf.grade) AS Average
