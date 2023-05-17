@@ -82,13 +82,12 @@ from ExamRegistration
 Group by LanguageOfChoice 
 Having LanguageOfChoice = 'SWE';    --SWE
 
-
 --- Best students in degree programs
 SELECT Student.degreeProgram, AVG(GradeOf.grade) AS Average
 FROM Student LEFT OUTER JOIN GradeOf ON Student.studentID = GradeOf.studentID
 WHERE Student.enrollDate > '01-01-2019' AND Student.enrollDate < '31-12-2019'
 GROUP BY Student.degreeProgram
-ORDER BY Student.degreeProgram;
+ORDER BY AVG(GradeOf.grade) DESC;
 
 -- Where and when all lectures of a course will be organized (CS-101)
 SELECT Building.street,
