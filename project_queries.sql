@@ -456,9 +456,9 @@ SELECT Student.studentID as StudentID, SUM(credits) as creditSum
       GROUP BY Student.studentID;
       
 Create view CourseRegistrationCount as
-    select CourseInstance.coursecode, CourseInstance.courseStartDate, Count(studentID)
+    select CourseInstance.coursecode, CourseInstance.courseStartDate, Count(studentID) AS amount
     from CourseInstance left outer join (ExerciseGroup left outer join EnrolledIn 
         on ExerciseGroup.courseCode = EnrolledIn.courseCode and ExerciseGroup.courseStartDate = EnrolledIn.courseStartDate)
         on CourseInstance.CourseCode = ExerciseGroup.courseCode
             and CourseInstance.courseStartDate = ExerciseGroup.courseStartDate
-    group by CourseInstance.courseCode, CourseInstance.courseStartDate;
+    group by CourseInstance.courseCode, CourseInstance.courseStartDate
