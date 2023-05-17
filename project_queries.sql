@@ -300,9 +300,12 @@ CREATE TABLE EnrolledIn (
 );
 
 -- Indexes 
+CREATE INDEX EmployeeNameIndex ON Employee(employeeName);
 CREATE INDEX SeatsIndex on Hall(seats);
-CREATE INDEX HallBuildingNameIndex ON Reservation(buildingName, hallName);
-CREATE INDEX CourseInfoIndex ON Lecture(courseCode, courseStartDate);
+CREATE INDEX ReservationBuildingIndex ON Reservation(buildingName, hallName);
+CREATE INDEX LectureInfoIndex ON Lecture(courseCode, courseStartDate);
+CREATE INDEX ExerciseSessionInfoIndex ON ExerciseSession(courseCode, courseStartDate)
+CREATE INDEX ExamIndex On Exam(courseCode);
 
 -- !!!!!!! TODO: This is here twice??
 --CREATE INDEX CourseInfoIndex ON ExerciseSession(courseCode, courseStartDate);
