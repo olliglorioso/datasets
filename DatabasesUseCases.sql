@@ -131,3 +131,8 @@ SELECT courseCode, hallName, startDate
 FROM (SELECT * FROM (Exam LEFT OUTER JOIN Reservation ON Exam.eventID = Reservation.eventID)) AS ExamsReservations 
     LEFT OUTER JOIN Hall ON ExamsReservations.hallName = Hall.hallName
 WHERE startDate > '2023-06-05' AND Hall.hallName = 'Auditorium'
+
+-- Find the first reservation that an employee has made
+SELECT employeeName, MIN(Reservation.reservationMadeDate)
+FROM Employee, Reservation
+WHERE Employee.employeeID = Reservation.madeBy AND Employee.employeeID = 1
