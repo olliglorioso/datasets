@@ -91,7 +91,7 @@ GROUP BY Student.degreeProgram
 ORDER BY Student.degreeProgram;
 
 -- Where and when a lecture will be organized
-  SELECT
+SELECT Building.street,
        Building.buildingName,
        Hall.hallName,
        Reservation.startDate,
