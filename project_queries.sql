@@ -59,8 +59,8 @@ CREATE TABLE BelongsToHall (
         hallName,
         buildingName
     )
-    REFERENCES Hall (buildingName,
-    hallName) 
+    REFERENCES Hall (hallName,
+    buildingName) 
 );
 
 CREATE TABLE Reservation (
