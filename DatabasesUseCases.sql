@@ -96,8 +96,7 @@ Group by LanguageOfChoice
 Having LanguageOfChoice = 'SWE';    --SWE
 
 
---- 11
-      
+--- Best students in degree programs
 SELECT Student.degreeProgram, AVG(GradeOf.grade) AS Average
 FROM Student LEFT OUTER JOIN GradeOf ON Student.studentID = GradeOf.studentID
 WHERE Student.enrollDate > '01-01-2019' AND Student.enrollDate < '31-12-2019'
