@@ -90,4 +90,30 @@ WHERE Student.enrollDate > '01-01-2019' AND Student.enrollDate < '31-12-2019'
 GROUP BY Student.degreeProgram
 ORDER BY Student.degreeProgram;
 
--- Where an event will be organized
+-- Where and when a lecture will be organized
+       Building.buildingName,
+       Hall.hallName,
+       Reservation.startDate,
+       Reservation.endDate,
+       Lecture.courseCode
+  FROM (
+           (
+               (
+                   (
+                       CourseInstance
+                       LEFT OUTER JOIN
+                       Lecture ON CourseInstance.courseStartDate = Lecture.courseStartDate AND 
+                                  CourseInstance.courseCode = Lecture.courseCode
+                   ) AS CourseLectures LEFT OUTER JOIN
+                   Event ON CourseLectures.eventID = Event.eventID
+               ) AS CourseEvents
+               LEFT OUTER JOIN
+               Reservation ON Reservation.eventID = CourseEvents.eventID
+           ) as CourseReservations
+           LEFT OUTER JOIN
+           Hall ON Hall.hallName = CourseReservations.hallName AND 
+                   Hall.buildingName = CourseReservations.buildingName
+       ) as CourseHalls
+       LEFT OUTER JOIN
+       Building ON CourseHalls.buildingName = Building.buildingName
+   WHERE Lecture.courseCode IS NOT NULL;
