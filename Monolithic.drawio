@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2023-07-06T04:41:05.220Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="8nec_yQVFwSMgfclRUaI" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-06T04:42:04.057Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="pd5wIuqMOzGWy7vaw53o" version="21.3.7" type="github">
   <diagram name="Page-1" id="8d5ssQAJ_DrUx-Q4HgWk">
     <mxGraphModel dx="2110" dy="1032" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="0cRCXCl2Ga1tZAvqIiJy-29" value="" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="-286" y="293" width="192" height="126" as="geometry" />
+        </mxCell>
         <mxCell id="0cRCXCl2Ga1tZAvqIiJy-27" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;opaque=0;" vertex="1" parent="1">
           <mxGeometry x="-216" y="-27" width="342" height="261" as="geometry" />
         </mxCell>
@@ -43,10 +46,10 @@
           <mxGeometry x="-18" y="274" width="42.32" height="27.31" as="geometry" />
         </mxCell>
         <mxCell id="0cRCXCl2Ga1tZAvqIiJy-17" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFDAD6;" vertex="1" parent="1">
-          <mxGeometry x="-91" y="333" width="120" height="60" as="geometry" />
+          <mxGeometry x="-238" y="337" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0cRCXCl2Ga1tZAvqIiJy-18" value="Recommendations" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-61" y="348" width="60" height="30" as="geometry" />
+          <mxGeometry x="-208" y="352" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0cRCXCl2Ga1tZAvqIiJy-20" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="221" y="189" width="120" height="80" as="geometry" />
@@ -57,8 +60,8 @@
         <mxCell id="0cRCXCl2Ga1tZAvqIiJy-22" value="Database" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="225" y="216" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0cRCXCl2Ga1tZAvqIiJy-24" value="Bare metal" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-129" y="397" width="90" height="30" as="geometry" />
+        <mxCell id="0cRCXCl2Ga1tZAvqIiJy-24" value="Container" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-279" y="394" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0cRCXCl2Ga1tZAvqIiJy-26" value="Cloud" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-73" y="195" width="90" height="30" as="geometry" />
