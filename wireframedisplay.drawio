@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-11T07:27:26.998Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="E3-q6-l21D5sH-sEwxYq" version="21.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-11T07:28:09.949Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="UNEHKdVvAYMAA5nlJAeB" version="21.7.4" type="github">
   <diagram name="Page-1" id="PljxQ3hTfiYyWTRbuTq4">
     <mxGraphModel dx="1383" dy="1328" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -51,6 +51,12 @@
         </mxCell>
         <mxCell id="1MAD--aOsvmYkQrTj0F1-18" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://pngimg.com/d/kidney_beans_PNG20.png;" vertex="1" parent="1">
           <mxGeometry x="-388" y="634.18" width="168.5" height="81.09" as="geometry" />
+        </mxCell>
+        <mxCell id="1MAD--aOsvmYkQrTj0F1-19" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B9E0A5;" vertex="1" parent="1">
+          <mxGeometry x="-45" y="370" width="466" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="1MAD--aOsvmYkQrTj0F1-20" value="&lt;b style=&quot;border-color: var(--border-color); font-size: 24px;&quot;&gt;Top 10 popular dishes&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" y="391" width="340" height="91" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
