@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-11T07:26:23.142Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="58bn3O569m1PSRZOsCDv" version="21.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-11T07:26:43.673Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="0R9q_Mci0UTRGX4j-L-J" version="21.7.4" type="github">
   <diagram name="Page-1" id="PljxQ3hTfiYyWTRbuTq4">
     <mxGraphModel dx="1383" dy="1328" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -45,6 +45,9 @@
         </mxCell>
         <mxCell id="1MAD--aOsvmYkQrTj0F1-16" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://static.vecteezy.com/system/resources/previews/025/222/144/original/tofu-cubes-isolated-on-transparent-background-png.png;" vertex="1" parent="1">
           <mxGeometry x="-411" y="583" width="144.69" height="109" as="geometry" />
+        </mxCell>
+        <mxCell id="1MAD--aOsvmYkQrTj0F1-17" value="" style="shape=tape;whiteSpace=wrap;html=1;rotation=90;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
+          <mxGeometry x="-521" y="95" width="313" height="159" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
