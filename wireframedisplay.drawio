@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-11T07:29:13.590Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="hfq-xEXVi68HdKQUphqO" version="21.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-11T07:29:22.139Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="9Eo6cOsD-kQzRV9EfDSS" version="21.7.4" type="github">
   <diagram name="Page-1" id="PljxQ3hTfiYyWTRbuTq4">
     <mxGraphModel dx="1267" dy="1143" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -60,6 +60,12 @@
         </mxCell>
         <mxCell id="1MAD--aOsvmYkQrTj0F1-21" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.spruengli.ch/components/com_mijoshop/opencart/image/cache/catalog/Artikel2023/18460_590x590_2023-590x590.jpg;" vertex="1" parent="1">
           <mxGeometry x="10" y="508" width="82" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="1MAD--aOsvmYkQrTj0F1-22" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.spruengli.ch/components/com_mijoshop/opencart/image/cache/catalog/Artikel2023/18460_590x590_2023-590x590.jpg;" vertex="1" parent="1">
+          <mxGeometry x="10" y="620" width="82" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="1MAD--aOsvmYkQrTj0F1-23" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.spruengli.ch/components/com_mijoshop/opencart/image/cache/catalog/Artikel2023/18460_590x590_2023-590x590.jpg;" vertex="1" parent="1">
+          <mxGeometry x="10" y="737" width="82" height="82" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
