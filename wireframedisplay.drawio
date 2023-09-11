@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2023-09-11T07:20:23.546Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="Bt0dTc0t-QJMwGaqbJqa" version="21.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-11T07:20:39.709Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="GV5-AgeWRAx0RMtBz-vO" version="21.7.4" type="github">
   <diagram name="Page-1" id="PljxQ3hTfiYyWTRbuTq4">
-    <mxGraphModel dx="1690" dy="566" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1450" dy="566" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="1MAD--aOsvmYkQrTj0F1-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B9E0A5;" vertex="1" parent="1">
-          <mxGeometry x="-35" y="9" width="459" height="307" as="geometry" />
+          <mxGeometry x="-35" y="9" width="466" height="307" as="geometry" />
         </mxCell>
-        <mxCell id="1MAD--aOsvmYkQrTj0F1-6" value="&lt;b style=&quot;border-color: var(--border-color); font-size: 24px;&quot;&gt;VeGo - manage your meals with your smartphone!&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="1MAD--aOsvmYkQrTj0F1-6" value="&lt;b style=&quot;border-color: var(--border-color); font-size: 24px;&quot;&gt;VeGo - manage your meals with your smartphone!&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="74" y="28" width="340" height="91" as="geometry" />
         </mxCell>
         <mxCell id="1MAD--aOsvmYkQrTj0F1-3" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/d/d0/QR_code_for_mobile_English_Wikipedia.svg;" vertex="1" parent="1">
