@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-11T07:30:12.727Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="SvD2xXTlNBjREPc0RbQD" version="21.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-11T07:31:10.216Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="Q037gYQ8gJrs1CkrsYJX" version="21.7.4" type="github">
   <diagram name="Page-1" id="PljxQ3hTfiYyWTRbuTq4">
-    <mxGraphModel dx="1267" dy="1143" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1118" dy="906" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -68,7 +68,13 @@
           <mxGeometry x="10" y="737" width="82" height="82" as="geometry" />
         </mxCell>
         <mxCell id="1MAD--aOsvmYkQrTj0F1-24" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;Mix everything&lt;/span&gt;&lt;br&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Protein 32g, Carbs 15g, Fat 40g&lt;/font&gt;&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="98" y="508" width="275" height="85" as="geometry" />
+          <mxGeometry x="102" y="508" width="251" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="1MAD--aOsvmYkQrTj0F1-25" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;Ais Kachang&lt;/span&gt;&lt;br&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Protein 32g, Sugar 60g, Fat 40g&lt;/font&gt;&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="109" y="620" width="251" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="1MAD--aOsvmYkQrTj0F1-26" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;Protein bomb&lt;/span&gt;&lt;br&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Protein 70g, Sugar 2g, Fat 3g&lt;/font&gt;&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="109" y="737" width="251" height="83" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
