@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2023-09-11T07:12:38.329Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="n5IGSHrGQ4AklKKKto4b" version="21.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-11T07:13:26.138Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="jE_vqUy3E9-ynnLHJjZO" version="21.7.4" type="github">
   <diagram name="Page-1" id="PljxQ3hTfiYyWTRbuTq4">
     <mxGraphModel dx="921" dy="557" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="1MAD--aOsvmYkQrTj0F1-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="1MAD--aOsvmYkQrTj0F1-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B9E0A5;" vertex="1" parent="1">
           <mxGeometry x="-35" y="9" width="459" height="307" as="geometry" />
         </mxCell>
-        <mxCell id="1MAD--aOsvmYkQrTj0F1-2" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;VeGo - manage your meals with your smartphone!&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="1MAD--aOsvmYkQrTj0F1-2" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;VeGo - manage your meals with your smartphone!&lt;/b&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="11" y="33" width="357" height="73" as="geometry" />
         </mxCell>
         <mxCell id="1MAD--aOsvmYkQrTj0F1-3" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/d/d0/QR_code_for_mobile_English_Wikipedia.svg;" vertex="1" parent="1">
