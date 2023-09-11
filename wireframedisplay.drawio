@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-11T07:16:16.498Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="O4yNLzqyjCCTwVoi7hZJ" version="21.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-11T07:17:32.812Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="4wjnyM3J1o97qVt_qsbS" version="21.7.4" type="github">
   <diagram name="Page-1" id="PljxQ3hTfiYyWTRbuTq4">
     <mxGraphModel dx="921" dy="557" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -11,10 +11,10 @@
           <mxGeometry x="11" y="33" width="357" height="73" as="geometry" />
         </mxCell>
         <mxCell id="1MAD--aOsvmYkQrTj0F1-3" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/d/d0/QR_code_for_mobile_English_Wikipedia.svg;" vertex="1" parent="1">
-          <mxGeometry x="213" y="95" width="187" height="187" as="geometry" />
+          <mxGeometry x="217" y="106" width="187" height="187" as="geometry" />
         </mxCell>
-        <mxCell id="1MAD--aOsvmYkQrTj0F1-4" value="&lt;font style=&quot;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;First time use&lt;/font&gt;&lt;br&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;1. Download VeGo app&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;2. Register&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;3. Design your meal&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;... and later you can plan your daily meals based on your needs!&lt;/b&gt;&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-15" y="95" width="211" height="165" as="geometry" />
+        <mxCell id="1MAD--aOsvmYkQrTj0F1-4" value="&lt;font style=&quot;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;Quick start&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;1. Download VeGo app&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;2. Register&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;3. Design your meal&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;... and later you can plan your daily meals based on your needs!&lt;/b&gt;&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-13" y="117" width="211" height="165" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
