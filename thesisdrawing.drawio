@@ -4,6 +4,12 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="x4-zEgF2IcyVcmxIWtVk-18" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="180" y="1183.33" width="100.69" height="100.69" as="geometry" />
+        </mxCell>
+        <mxCell id="x4-zEgF2IcyVcmxIWtVk-19" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;q&lt;sub&gt;4&lt;/sub&gt;, p&lt;sub&gt;2&lt;br&gt;&lt;/sub&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="395.35" y="1130.6911538461538" width="120.6896551724138" height="120.6896551724138" as="geometry" />
+        </mxCell>
         <mxCell id="Rc_dPTwu43_yxfsiKPEV-25" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="50" y="50" width="570" height="366.18000000000006" as="geometry" />
         </mxCell>
@@ -146,12 +152,6 @@
             <mxPoint x="10" y="110" as="sourcePoint" />
             <mxPoint x="50" y="110" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="x4-zEgF2IcyVcmxIWtVk-18" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="180" y="1183.33" width="100.69" height="100.69" as="geometry" />
-        </mxCell>
-        <mxCell id="x4-zEgF2IcyVcmxIWtVk-19" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;q&lt;sub&gt;4&lt;/sub&gt;, p&lt;sub&gt;2&lt;br&gt;&lt;/sub&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="404" y="1120.0011538461538" width="120.6896551724138" height="120.6896551724138" as="geometry" />
         </mxCell>
         <mxCell id="x4-zEgF2IcyVcmxIWtVk-2" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;q&lt;sub&gt;1&lt;/sub&gt;, p&lt;sub&gt;1&lt;/sub&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="274.66" y="1010.0011538461538" width="120.6896551724138" height="120.6896551724138" as="geometry" />
