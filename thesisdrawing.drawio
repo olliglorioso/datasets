@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.8.0">
   <diagram name="Sivu-1" id="ETxLBeFSpSedNPtnGMP7">
-    <mxGraphModel dx="1434" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -51,6 +51,12 @@
         </mxCell>
         <mxCell id="2FSA2OzjC6oiGrAFbLMi-2" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;" parent="Rc_dPTwu43_yxfsiKPEV-25" vertex="1">
           <mxGeometry x="-6.179999999999978" y="239.28000000000003" width="126.9" height="126.9" as="geometry" />
+        </mxCell>
+        <mxCell id="wvC6C_HtZKTwuJGMgZv_-9" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;b&lt;/font&gt;" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;startArrow=classic;startFill=1;" edge="1" parent="Rc_dPTwu43_yxfsiKPEV-25" source="Rc_dPTwu43_yxfsiKPEV-12" target="2FSA2OzjC6oiGrAFbLMi-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="230" as="sourcePoint" />
+            <mxPoint x="382" y="70" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="JEPbFmwuHtTDAUJ13ryq-21" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="90" y="490" width="700.0000000000001" height="363.0008090185675" as="geometry" />
