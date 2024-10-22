@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.8.0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0" version="24.8.0">
   <diagram name="Sivu-1" id="ETxLBeFSpSedNPtnGMP7">
-    <mxGraphModel dx="2487" dy="1524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1380" dy="2100" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -43,7 +43,7 @@
             <mxPoint x="531.9999999999999" y="130.9090909090909" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2FSA2OzjC6oiGrAFbLMi-2" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;" vertex="1" parent="Rc_dPTwu43_yxfsiKPEV-25">
+        <mxCell id="2FSA2OzjC6oiGrAFbLMi-2" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;" parent="Rc_dPTwu43_yxfsiKPEV-25" vertex="1">
           <mxGeometry x="-6.179999999999978" y="239.28000000000003" width="126.9" height="126.9" as="geometry" />
         </mxCell>
         <mxCell id="JEPbFmwuHtTDAUJ13ryq-21" value="" style="group" parent="1" vertex="1" connectable="0">
@@ -121,14 +121,17 @@
             <mxPoint x="63" y="670" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2FSA2OzjC6oiGrAFbLMi-1" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;q&lt;sub&gt;0&lt;/sub&gt;, p&lt;sub&gt;0&lt;/sub&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="2FSA2OzjC6oiGrAFbLMi-1" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;q&lt;sub&gt;0&lt;/sub&gt;, p&lt;sub&gt;0&lt;/sub&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="90" y="1060.0011538461538" width="120.6896551724138" height="120.6896551724138" as="geometry" />
         </mxCell>
-        <mxCell id="2FSA2OzjC6oiGrAFbLMi-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1">
+        <mxCell id="2FSA2OzjC6oiGrAFbLMi-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="10" y="110" as="sourcePoint" />
             <mxPoint x="50" y="110" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="x4-zEgF2IcyVcmxIWtVk-2" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;q&lt;sub&gt;1&lt;/sub&gt;, p&lt;sub&gt;1&lt;/sub&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1060.0011538461538" width="120.6896551724138" height="120.6896551724138" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
