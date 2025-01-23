@@ -157,6 +157,9 @@
             <mxPoint x="670.84" y="164.28" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="xWaIrbfhw9UBgd3ar35P-112" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/phosphor-fill-vol-3/256/number-zero-fill-128.png" vertex="1" parent="1">
+          <mxGeometry x="140" y="170" width="30" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
